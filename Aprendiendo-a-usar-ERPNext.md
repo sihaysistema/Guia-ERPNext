@@ -244,6 +244,7 @@ que accesan nuestro sitio desde la web.
 #### 3.1.7 - Configurando cuenta de correo electronico (Video 045)
 #### 3.1.8 - Ajustes de impresión (Video 046)
 #### 3.1.9 - Traducciones personalizadas (Video 047)
+#### 3.1.10 - Otros ajustes  (Setup Module) MORE WORK NEEDED HERE
 ### 3.2 Modulos del programa
 #### 3.2.1 - Cuentas Contables
 ##### 3.2.1.1 - Año fiscal  (Video 048)
@@ -267,8 +268,9 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.3.1 - Unidades de Medida (Video 064)
 ##### 3.2.3.2 - Marcas (Video 065)
 ##### 3.2.3.3 - Configuración de inventarios (Video 065)
-##### 3.2.3.4 - Lista de Precios (Video 066)
-##### 3.2.3.5 - Entradas de Inventario (Movimiento de bodegas) (Video 067)
+##### 3.2.3.4 - Configuracion de Variantes de Articulo (Producto) (Video 209)
+##### 3.2.3.5 - Lista de Precios (Video 066)
+##### 3.2.3.6 - Entradas de Inventario (Movimiento de bodegas) (Video 067)
 * Carga inicial a inventario
 	1. Almacen
 	2. Entradas de Inventario
@@ -280,9 +282,9 @@ que accesan nuestro sitio desde la web.
 	8. Repetir para cada producto deseado
 	9. Si no se indico valor neto de IVA en el Producto,  se lo pedira.
 	10. Clic en guardar, y luego Validar
-##### 3.2.3.6 - Partida de apertura de inventario (Video 068)
-##### 3.2.3.7 - Solicitud de Materiales (Video 069)
-##### 3.2.3.8 - Recibo de Compra (Video 070)
+##### 3.2.3.7 - Partida de apertura de inventario (Video 068)
+##### 3.2.3.8 - Solicitud de Materiales (Video 069)
+##### 3.2.3.9 - Recibo de Compra (Video 070)
 #### 3.2.4 - Compras
 ##### 3.2.4.1 - Configuración de Compras (Video 071)
 ##### 3.2.4.2 - Conjunto / Paquete de productos (Video 001)
@@ -439,8 +441,9 @@ Qué veremos aquí
 ##### 5.2.1.7 - Detalle de ventas (Video 184)
 ##### 5.2.1.8 - Detalle de compras (Video 185)
 ##### 5.2.1.9 - Saldo de clientes (Video 186)
-##### 5.2.1.10 - Resumen de pago de ventas (Video 187)
-##### 5.2.1.11 - Creando y Guardando Informes personalizados (Video 188)
+##### 5.2.1.10 - Saldo de proveedores - NO SE HA ASIGNADO VIDEO
+##### 5.2.1.11 - Resumen de pago de ventas (Video 187)
+##### 5.2.1.12 - Creando y Guardando Informes personalizados (Video 188)
 #### 5.2.2 - Recursos Humanos
 ##### 5.2.2.1 - Evaluacion (Video 189)
 ##### 5.2.2.2 - Plantilla de evaluacion (Video 190)
@@ -452,39 +455,43 @@ Qué veremos aquí
 ##### 5.2.2.8 - Tipo de préstamo (Video 196)
 ##### 5.2.2.9 - Solicitud de prestamo del empleado (Video 197)
 ##### 5.2.2.10 - Prestamo de empleado (Video 198)
-##### 5.2.2.11 - Informes 
-###### 5.2.2.11.1 - Cumpleaños del empleado (Video 199)
-###### 5.2.2.11.2 - Balance de ausencias de empleado (Video 200)
-###### 5.2.2.11.3 - Empleados que trabajan en un dia festivo (Video 201)
-###### 5.2.2.11.4 - Informacion del empleado (Video 202)
-###### 5.2.2.11.5 - Registro de salario (Video 203)
-###### 5.2.2.11.6 - Hoja de asistencia mensual (Video 204)
-###### 5.2.2.11.7 - Gastos del vehículo (Video 205)
+##### 5.2.2.11 - Vehiculo
+##### 5.2.2.12 - Bitacora de Vehiculo 
+##### 5.2.2.13 - Informes 
+###### 5.2.2.13.1 - Cumpleaños del empleado (Video 199)
+###### 5.2.2.13.2 - Balance de ausencias de empleado (Video 200)
+###### 5.2.2.13.3 - Empleados que trabajan en un dia festivo (Video 201)
+###### 5.2.2.13.4 - Informacion del empleado (Video 202)
+###### 5.2.2.13.5 - Registro de salario (Video 203)
+###### 5.2.2.13.6 - Hoja de asistencia mensual (Video 204)
+###### 5.2.2.13.7 - Gastos del vehículo (Video 205)
 #### 5.2.3 - Almacén o Inventario
 ##### 5.2.3.1 - Viaje de entrega (Video 206)
 ##### 5.2.3.2 - Inspección de calidad (Video 207)
 ##### 5.2.3.3 - Comprobante de costos de destino estimados (Video 208)
-##### 5.2.3.4 - Configuracion de Variantes de Articulo (Producto) (Video 209)
-##### 5.2.3.5 - Nota de instalación (Video 210)
-##### 5.2.3.5 -  Informes de Stock o Inventario
-###### 5.2.3.5.1 - Mayor de inventarios (Video 211)
-###### 5.2.3.5.2 - Balance de inventarios (Video 212)
-###### 5.2.3.5.3 - Cantidad de inventario proyectado (Video 213)
-###### 5.2.3.5.4 - Resumen de existencia (Video 214)
-###### 5.2.3.5.5 - Antigüedad de existencias (Video 215)
-###### 5.2.3.5.5 - Inventario por precios de producto (Video 216)
-##### 5.2.3.6 -  Informes adicionales
-###### 5.2.3.6.1 - Ordenes pendientes de entrega (Video 217)
-###### 5.2.3.6.2 - Productos por recibir desde orden de compra (Video 218)
-###### 5.2.3.6.3 - Reporte de productos con stock bajo (escasez) (Video 219)
-###### 5.2.3.6.4 - Articulos solicitados para ser transferidos (Video 220)
-###### 5.2.3.6.5 - Historial de saldo por lotes (Video 221)
-###### 5.2.3.6.6 - Estado de caducidad de lote de productos (Video 222)
-###### 5.2.3.6.7 - Precios de los productos (Video 223)
-###### 5.2.3.6.8 - Nivel recomendado de reabastecimiento de producto (Video 224)
-###### 5.2.3.6.9 - Detalles de la variante del articulo (Video 225)
+##### 5.2.3.4 - Nota de instalación (Video 210)
+##### 5.2.3.5 - Vencimiento de Contrato de numero de serie
+##### 5.2.3.6 - Estatus de Número de serie
+##### 5.2.3.7 - Vencimiento de Garantía de Numero de Serie
+##### 5.2.3.8 -  Informes de Stock o Inventario
+###### 5.2.3.8.1 - Mayor de inventarios (Video 211)
+###### 5.2.3.8.2 - Balance de inventarios (Video 212)
+###### 5.2.3.8.3 - Cantidad de inventario proyectado (Video 213)
+###### 5.2.3.8.4 - Resumen de existencia (Video 214)
+###### 5.2.3.8.5 - Antigüedad de existencias (Video 215)
+###### 5.2.3.8.5 - Inventario por precios de producto (Video 216)
+##### 5.2.3.9 -  Informes adicionales
+###### 5.2.3.9.1 - Ordenes pendientes de entrega (Video 217)
+###### 5.2.3.9.2 - Productos por recibir desde orden de compra (Video 218)
+###### 5.2.3.9.3 - Reporte de productos con stock bajo (escasez) (Video 219)
+###### 5.2.3.9.4 - Articulos solicitados para ser transferidos (Video 220)
+###### 5.2.3.9.5 - Historial de saldo por lotes (Video 221)
+###### 5.2.3.9.6 - Estado de caducidad de lote de productos (Video 222)
+###### 5.2.3.9.7 - Precios de los productos (Video 223)
+###### 5.2.3.9.8 - Nivel recomendado de reabastecimiento de producto (Video 224)
+###### 5.2.3.9.9 - Detalles de la variante del articulo (Video 225)
 #### 5.2.4 - Compras
-##### 5.2.4.1 - Solicitud de productos (Video 226)
+##### 5.2.4.1 - Productos Para ser Solicitados (Video 226)
 ##### 5.2.5.2 - Requisiciones pendientes para ser ordenadas (Video 227)
 ##### 5.2.5.3 - Solicitudes de material para los que no hay presupuestos de proveedor (Video 227)
 ##### 5.2.5.4 - Historial de compras (Video 228)
@@ -498,7 +505,7 @@ Qué veremos aquí
 ##### 5.2.5.6 - Buscar lista de materiales (LdM) (Video 235)
 ##### 5.2.5.7 - Clientes inactivos (Video 236)
 ##### 5.2.5.8 - Inventario Disponible de Artículos de Embalaje (Video 237)
-##### 5.2.5.9 - A la espera de la orden de compra para crear solicitud de compra (Video 238)
+##### 5.2.5.9 - Articulos pendientes en orden de venta para crear solicitud de compra (Video 238)
 ##### 5.2.5.10 - Saldo de clientes (Video 239)
 ##### 5.2.5.11 - Informes personalizados (Video 240)
 #### 5.2.6 - CRM (Manejo de Recursos: Clientes)
