@@ -338,6 +338,84 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.11.8 - Entrada en el Blog (Video 112)
 ### 3.3 Conclusión Modulo 3
 
+## Modulo 4: Uso avanzado
+Que veremos aquí
+### 4.1 Operación Avanzada
+#### 4.1.3 - Ajustes específicos por Dominio
+##### 4.1.3.1 - Modulo Agricultura (Video 113)
+##### 4.1.3.2 - Modulo de Hospitalidad (Video 114)
+##### 4.1.3.3 - Modulo de Salud (Video 115)
+##### 4.1.3.4 - Modulo de Educacion (Video 116)
+##### 4.1.3.6 - Modulo de Servicios (Video 117)
+##### 4.1.3.7 - Modulo de Manufactura (Video 118)
+#### 4.1.2 - Copias de respaldo de datos (Video 119)
+#### 4.1.3 - Personalización de formularios (Video 120)
+	Agregando nuevos campos a doctypes principales (Customize)
+#### 4.1.4 - Campos personalizados (Video 121)
+		Nombre de campos anteponiendo nombre de su empresa (buena practica para evitar errores de actualizacion)
+		Este sirve para doctypes hijos solamente!
+#### 4.1.5 - Codigo fuente personalizado (Video 122)
+#### 4.1.6 - Notificaciones de correo (Video 123)
+#### 4.1.7 - Formatos de impresión (Video 124)
+	Jinja Basico para plantillas de impresion
+#### 4.1.8 - Estilo de impresión (Video 125)
+#### 4.1.9 - Constructor de formato de impresión (Video 126)
+### 4.1.10 - Formato de dirección (Video 127)
+
+### 4.2 Modulos del programa
+#### 4.2.1 - Cuentas Contables
+##### 4.2.1.1 - Balanza de comprobacion (Video 128)
+##### 4.2.1.2 - Solicitud de pago (Video 129)
+##### 4.2.1.3 - Cuentas por cobrar (Video 130)
+##### 4.2.1.4 - Cuentas por pagar (Video 131)
+##### 4.2.1.5 - Estados de conciliacion bancarios (Video 132)
+##### 4.2.1.6 - Resumen de cambios bancarios (Video 133)
+##### 4.2.1.7 - Garantia bancaria (Video 134)
+##### 4.2.1.8 - Regla fiscal (Video 135)
+##### 4.2.1.9 - Presupuesto (Video 136)
+##### 4.2.1.10 - Variacion de presupuesto (Video 137)
+##### 4.2.1.11 - Distribucion mensual  para Presupuesto(Video 138)
+##### 4.2.1.12 - Cierre de periodo (Video 139)
+#### 4.2.2 - Recursos Humanos
+##### 4.2.2.1 - Asistencia (Video 140)
+##### 4.2.2.2 - Herramienta de Asistencia de los empleados (Video 141)
+##### 4.2.2.3 - Subir asistencia (Video 142)
+##### 4.2.2.4 - Solicitud de licencia (para ausentarse) (Video 143)
+##### 4.2.2.5 - Tipo de licencia (para ausentarse) (Video 144)
+##### 4.2.2.6 - Asignacion de vacaciones (Video 145)
+##### 4.2.2.7 - Herramienta de asignación de vacaciones (Video 146)
+##### 4.2.2.8 - Lista de bloqueo (Video 147)
+#### 4.2.3 - Almacén o Inventario
+##### 4.2.3.1 - Atributos de producto (Video 148)
+##### 4.2.3.2 - Variantes de producto (Video 149)
+##### 4.2.3.3 - Conciliacion de inventario (Video 150)
+##### 4.2.3.4 -  Lista de embalaje (empaque) (Video 151)
+##### 4.2.3.5 - Numero de serie (Video 152)
+##### 4.2.3.6 - Numero de lote (Video 153)
+#### 4.2.4 - Compras
+##### 4.2.4.1 - Invitando a proveedores al portal ERPNext de su empresa (Video 154)
+##### 4.2.4.2 - Ingreso de cotizaciones de proveedor al portal ERPNext de su empresa (Video 155)
+#### 4.2.5 - Ventas
+##### 4.2.5.1 - Regla de envío (Video 156)
+##### 4.2.5.2 - Analisis de ventas (Video 157)
+##### 4.2.5.3 - Compras y lealtad de clientes (Video 158)
+#### 4.2.6 - CRM (Manejo de Recursos: Clientes)
+###### 4.2.6.1 - Registro SMS (Video 159)
+###### 4.2.6.2 - Ajustes de SMS (Video 160)
+##### 4.2.7 - Manufactura
+##### 4.2.7.1 - Ordenes de producción abiertas (Video 161)
+##### 4.2.7.2 - Ordenes de produccion en progreso (Video 162)
+##### 4.2.7.3 - Productos entregados desde ordenes de producción (Video 163)
+##### 4.2.7.4 - Ordenes de producción (OP) completadas (Video 164)
+##### 4.2.7.5 - Analisis de producción (Video 165)
+#### 4.2.8 - Proyectos
+##### 4.2.8.1 - Resumen diario de horas (Video 166)
+##### 4.2.8.2 - Seguimiento preciso del stock (Video 167)
+#### 4.2.9 - Bienes o Activos 
+##### 4.2.9.1 - Movimiento de activo (Video 168)
+##### 4.2.9.2 - Depreciaciones de Activos y Saldos (Video 169)
+Que vimos aquí
+
 [pendiente]
 TK #Pendiente de escribir procedimiento
 1.5.2 - Instalación en servidor remoto
