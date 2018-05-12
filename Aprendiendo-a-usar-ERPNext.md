@@ -32,11 +32,11 @@ ERPNext cuenta con documentación básica, videos y un grupo de soporte que le p
 ### 1.2 Estructura
 The following course or tutorial is divided into 5 modules, which will enable you to master ERPNext.
 
-Modulo 1: Introduction a ERPNext
-Modulo 2: Uso básico
-Modulo 3: Uso intermedio
-Modulo 4: Uso avanzado
-Modulo 5: Convirtiéndose en experto
+>* Modulo 1: Introduction a ERPNext
+>* Modulo 2: Uso básico
+>* Modulo 3: Uso intermedio
+>* Modulo 4: Uso avanzado
+>* Modulo 5: Convirtiéndose en experto
 
 Este curso está dividido en 5 modulos. Cada módulo llevará el aprendizaje de lo más general 
 a lo más específico, de la misma manera que hablamos de un barco en términos generales, 
