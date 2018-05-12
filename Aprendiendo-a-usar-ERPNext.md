@@ -414,7 +414,116 @@ Que veremos aquí
 #### 4.2.9 - Bienes o Activos 
 ##### 4.2.9.1 - Movimiento de activo (Video 168)
 ##### 4.2.9.2 - Depreciaciones de Activos y Saldos (Video 169)
+### 4.3 Conclusion Modulo 4
 Que vimos aquí
+
+## Modulo 5: Convirtiendose en experto
+Qué veremos aquí
+### 5.1 Operación nivel experto
+#### 5.1.1 Instalador de aplicaciones (Video 170)
+#### 5.1.2 Alertas de correo electronico (Video 171)
+#### 5.1.3 Respuesta estandarizada (Video 172)
+#### 5.1.4 Disparador de retroalimentación (Video 173)
+#### 5.1.5 Resumen por correo (Video 174)
+#### 5.1.6 Cuenta de pago vía Portal (Cuenta pasarela de pago) (Video 175)
+#### 5.1.7 - Plantilla de impresión de cheques (Video 176)
+#### 5.1.8 - Programando plantillas de factura avanzadas (Video 177)
+### 5.2 Modulos del programa
+#### 5.2.1 - Cuentas Contables
+##### 5.2.1.1 - Beneficio bruto (Gross profit) (Video 178)
+##### 5.2.1.2 - Tendencias de compras (por factura) (Video 179)
+##### 5.2.1.3 - Tendencias de ventas (por factura) (Video 180)
+##### 5.2.1.4 - Balance de terceros (Video 181)
+##### 5.2.1.5 - Periodos de pago según facturas (payment period based on invoice date) (Video 182)
+##### 5.2.1.6 - Comisiones de socio de ventas (Sales partner comission) (Video 183)
+##### 5.2.1.7 - Detalle de ventas (Video 184)
+##### 5.2.1.8 - Detalle de compras (Video 185)
+##### 5.2.1.9 - Saldo de clientes (Video 186)
+##### 5.2.1.10 - Resumen de pago de ventas (Video 187)
+##### 5.2.1.11 - Creando y Guardando Informes personalizados (Video 188)
+#### 5.2.2 - Recursos Humanos
+##### 5.2.2.1 - Evaluacion (Video 189)
+##### 5.2.2.2 - Plantilla de evaluacion (Video 190)
+##### 5.2.2.3 - Actualizaciones equipo (Video 191)
+##### 5.2.2.4 - Programa de entrenamiento (Video 192)
+##### 5.2.2.5 - Evento de capacitación (Video 193)
+##### 5.2.2.6 - Resultado del Entrenamiento (Video 194)
+##### 5.2.2.7 - Comentarios del Entrenamiento (Video 195)
+##### 5.2.2.8 - Tipo de préstamo (Video 196)
+##### 5.2.2.9 - Solicitud de prestamo del empleado (Video 197)
+##### 5.2.2.10 - Prestamo de empleado (Video 198)
+##### 5.2.2.11 - Informes 
+###### 5.2.2.11.1 - Cumpleaños del empleado (Video 199)
+###### 5.2.2.11.2 - Balance de ausencias de empleado (Video 200)
+###### 5.2.2.11.3 - Empleados que trabajan en un dia festivo (Video 201)
+###### 5.2.2.11.4 - Informacion del empleado (Video 202)
+###### 5.2.2.11.5 - Registro de salario (Video 203)
+###### 5.2.2.11.6 - Hoja de asistencia mensual (Video 204)
+###### 5.2.2.11.7 - Gastos del vehículo (Video 205)
+#### 5.2.3 - Almacén o Inventario
+##### 5.2.3.1 - Viaje de entrega (Video 206)
+##### 5.2.3.2 - Inspección de calidad (Video 207)
+##### 5.2.3.3 - Comprobante de costos de destino estimados (Video 208)
+##### 5.2.3.4 - Configuracion de Variantes de Articulo (Producto) (Video 209)
+##### 5.2.3.5 - Nota de instalación (Video 210)
+##### 5.2.3.5 -  Informes de Stock o Inventario
+###### 5.2.3.5.1 - Mayor de inventarios (Video 211)
+###### 5.2.3.5.2 - Balance de inventarios (Video 212)
+###### 5.2.3.5.3 - Cantidad de inventario proyectado (Video 213)
+###### 5.2.3.5.4 - Resumen de existencia (Video 214)
+###### 5.2.3.5.5 - Antigüedad de existencias (Video 215)
+###### 5.2.3.5.5 - Inventario por precios de producto (Video 216)
+##### 5.2.3.6 -  Informes adicionales
+###### 5.2.3.6.1 - Ordenes pendientes de entrega (Video 217)
+###### 5.2.3.6.2 - Productos por recibir desde orden de compra (Video 218)
+###### 5.2.3.6.3 - Reporte de productos con stock bajo (escasez) (Video 219)
+###### 5.2.3.6.4 - Articulos solicitados para ser transferidos (Video 220)
+###### 5.2.3.6.5 - Historial de saldo por lotes (Video 221)
+###### 5.2.3.6.6 - Estado de caducidad de lote de productos (Video 222)
+###### 5.2.3.6.7 - Precios de los productos (Video 223)
+###### 5.2.3.6.8 - Nivel recomendado de reabastecimiento de producto (Video 224)
+###### 5.2.3.6.9 - Detalles de la variante del articulo (Video 225)
+#### 5.2.4 - Compras
+##### 5.2.4.1 - Solicitud de productos (Video 226)
+##### 5.2.5.2 - Requisiciones pendientes para ser ordenadas (Video 227)
+##### 5.2.5.3 - Solicitudes de material para los que no hay presupuestos de proveedor (Video 227)
+##### 5.2.5.4 - Historial de compras (Video 228)
+##### 5.2.5.5 - Direcciones y contactos de proveedores (Video 229)
+#### 5.2.5 - Ventas
+##### 5.2.5.1 - Detalle de iniciativas (Video 230)
+##### 5.2.5.2 - Direcciones de clientes y contactos (Video 231)
+##### 5.2.5.3 - Ordenes pendientes de entrega (Video 232)
+##### 5.2.5.4 - Resumen de transacciones por vendedor (Video 233)
+##### 5.2.5.5 - Detalle de las Ventas (Video 234)
+##### 5.2.5.6 - Buscar lista de materiales (LdM) (Video 235)
+##### 5.2.5.7 - Clientes inactivos (Video 236)
+##### 5.2.5.8 - Inventario Disponible de Artículos de Embalaje (Video 237)
+##### 5.2.5.9 - A la espera de la orden de compra para crear solicitud de compra (Video 238)
+##### 5.2.5.10 - Saldo de clientes (Video 239)
+##### 5.2.5.11 - Informes personalizados (Video 240)
+#### 5.2.6 - CRM (Manejo de Recursos: Clientes)
+##### 5.2.6.1 - Detalle de iniciativas (REPETIDO EN VENTAS) (Video 241)
+##### 5.2.6.2 - "Embudo" de ventas (Video 242)
+##### 5.2.6.3 - Prospectos comprometidos pero no convertidos (Video 243)
+##### 5.2.6.4 - Minutos hasta la primera respuesta para Oportunidades (Video 244)
+##### 5.2.6.5 - Clientes Inactivos (repetido en ventas) (Video 245)
+##### 5.2.6.6 - Eficiencia de la campaña (Video 246)
+##### 5.2.6.7 - Eficiencia del propietario de la iniciativa (Video 247)
+#### 5.2.9 - Bienes o Activos
+##### 5.2.9.1 - Movimiento de activo (Video 248)
+##### 5.2.9.2 - Depreciaciones de Activos y Saldos (Video 249)
+#### 5.2.10 - Modificando el programa desde la base
+##### 5.2.10.1 - Accesando linea de comandos - linux (Video 250)
+##### 5.2.10.2 - Terminal iTerm (Video 251)
+##### 5.2.10.3 - Haciendo snapshots (VirtualBox, u otras opciones) (Video 252)
+##### 5.2.10.4 - El folder de ERPNext (Video 253)
+##### 5.2.10.5 - Modificando Archivos (Video 254)
+##### 5.2.10.6 - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
+##### 5.2.10.7 - GitHub y Versiones de control (Video 256)
+##### 5.2.10.8 - Modo desarrollador y consola desarrollo navegador (Video 257)
+##### 5.2.10.9 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
+Que vimos aquí
+
 
 [pendiente]
 TK #Pendiente de escribir procedimiento
