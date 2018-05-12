@@ -220,11 +220,20 @@ Luego vimos lo mismo solamente que en el modulo de Ventas, en donde agregamos un
  modificamos un cliente, ingresamos una cotización al cliente, luego realizamos nuestra primer
  venta directa, y luego realizamos una venta mas formal.
 
-Por ultimo vimos el modulo de CRM o manejo de clientes, que nos permite mejorar la atencion
+Vimos el modulo de CRM o manejo de clientes, que nos permite mejorar la atencion
 al cliente, crear campañas publicitarias, y rastrear las iniciativas hasta que se convierten 
 en clientes.
 
-## Módulo 3: Uso Intermedio
+Revisamos el modulo de manufactura y una de las bases de este modulo: El **Listado de Materiales (LdM)**
+que nos permite definir la materia prima necesaria para un producto especifico.
 
+El modulo de proyectos se revisó, con la creación de un proyecto interno con tareas y fechas limite.
+El modulo de Bienes con sus categorias y Activos (Bienes), que aprenderemos como se deprecian automaticamente y se les puede
+registrar mantenimiento en el siguiente modulo.
+El modulo de sitio web nos permitio crear una simple pñagina web para servir a todos los usuarios 
+que accesan nuestro sitio desde la web.
+
+## Módulo 3: Uso Intermedio
+[pendiente]
 TK #Pendiente de escribir procedimiento
 1.5.2 - Instalación en servidor remoto
