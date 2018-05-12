@@ -234,6 +234,110 @@ El modulo de sitio web nos permitio crear una simple pñagina web para servir a 
 que accesan nuestro sitio desde la web.
 
 ## Módulo 3: Uso Intermedio
+### 3.1 Operación Intermedia
+#### 3.1.1 - Roles (Video 039)
+#### 3.1.2 - Permisos (Video 040)
+#### 3.1.3 - Secuencias e Identificadores (Series) (Video 041)
+#### 3.1.4 - Ajustes del sistema (Video 042)
+#### 3.1.5 - Ajustes globales (Video 043)
+#### 3.1.6 - Ajustes de las cuentas (Video 044)
+#### 3.1.7 - Configurando cuenta de correo electronico (Video 045)
+#### 3.1.8 - Ajustes de impresión (Video 046)
+#### 3.1.9 - Traducciones personalizadas (Video 047)
+### 3.2 Modulos del programa
+#### 3.2.1 - Cuentas Contables
+##### 3.2.1.1 - Año fiscal  (Video 048)
+##### 3.2.1.2 - Monedas (Video 049)
+##### 3.2.1.3 - Configuración del POS (Video 050)
+##### 3.2.1.4 - Formas de pago (Video 051)
+##### 3.2.1.5 - Entrada de pago (Video 057)
+##### 3.2.1.6 - Impuestos (ventas) (Video 053)
+##### 3.2.1.7 - Impuestos (compras) (Video 054)
+##### 3.2.1.8 - Factura de venta (Video 055)
+##### 3.2.1.9 - Factura de compra (Video 056)
+##### 3.2.1.10 -  Conciliando pagos (Video 057)
+#### 3.2.2 - Recursos Humanos
+##### 3.2.2.1 - Configuracion de recursos Humanos (Video 058)
+##### 3.2.2.2 - Lista de festividades (Video 059)
+##### 3.2.2.3 - Estructura salarial y componentes (Video 060)
+##### 3.2.2.4 - Nómina Salarial (Video 061)
+##### 3.2.2.5 - Herramienta para crear boletas de pago (planilla) (Video 062)
+##### 3.2.2.6 - Configuracion de ajustes del resumen diario de trabajo (Video 063)
+#### 3.2.3 - Almacén o Inventario
+##### 3.2.3.1 - Unidades de Medida (Video 064)
+##### 3.2.3.2 - Marcas (Video 065)
+##### 3.2.3.3 - Configuración de inventarios (Video 065)
+##### 3.2.3.4 - Lista de Precios (Video 066)
+##### 3.2.3.5 - Entradas de Inventario (Movimiento de bodegas) (Video 067)
+* Carga inicial a inventario
+	1. Almacen
+	2. Entradas de Inventario
+	3. Clic en nuevo
+	4. Propósito: Recepción de materiales
+	5. Indicar Almacen de destino Predeterminado
+	6. Ingresar el nombre o codigo del producto,  en donde dice:  Codigo del producto.
+	7. Indicar la cantidad a dar de alta o cargar en inventario.
+	8. Repetir para cada producto deseado
+	9. Si no se indico valor neto de IVA en el Producto,  se lo pedira.
+	10. Clic en guardar, y luego Validar
+##### 3.2.3.6 - Partida de apertura de inventario (Video 068)
+##### 3.2.3.7 - Solicitud de Materiales (Video 069)
+##### 3.2.3.8 - Recibo de Compra (Video 070)
+#### 3.2.4 - Compras
+##### 3.2.4.1 - Configuración de Compras (Video 071)
+##### 3.2.4.2 - Conjunto / Paquete de productos (Video 001)
+ Importante:  Si cambio la bodega por omision de ERPNext DESPUES de haber creado un conjunto de productos, asegurese de refrescar o recargar el servidor.
+##### 3.2.4.3 - Términos y condiciones compras (Video 072)
+##### 3.2.4.4 - Tarjeta de puntuacion de proveedores (Video 073)
+##### 3.2.4.5 - Criterios de Calificación del proveedor (Video 074)
+##### 3.2.4.6 - Variable de Calificación del proveedor (Video 075)
+#### 3.2.5 - Ventas
+##### 3.2.5.1 - Configuración de Ventas (Video 076)
+##### 3.2.5.2 - Tipo de industria (Video 077)
+##### 3.2.5.3 - Territorio (Video 078)
+##### 3.2.5.4 - Socio de Ventas (Video 079)
+##### 3.2.5.5 - Vendedores (Video 080)
+##### 3.2.5.6 - Conjunto / Paquete de productos (Video 001) - Revisado
+##### 3.2.5.7 - Terminos y condiciones Ventas (Video 081)
+##### 3.2.5.8 - Venta mediante POS (Video 082)
+#### 3.2.6 - CRM (Manejo de Recursos: Clientes)
+##### 3.2.6.1 - Categoría de Cliente (Video 083)
+##### 3.2.6.2 - Comunicaciones (Video 084)
+##### 3.2.6.3 - Ajustes SMS o mensajería móvil desde ERPNext (Video 085)
+#### 3.2.7 - Manufactura
+##### 3.2.7.1 - Subcontratación (Video 086)
+##### 3.2.7.2 - Orden de Produccion (Video 087)
+##### 3.2.7.3 - Registro de Horas (Video 088)
+#### 3.2.8 - Proyectos
+##### 3.2.8.1 - Tipos de Proyecto (Video 089)
+##### 3.2.8.2 - Tipo y Costo de Actividad (Video 090)
+##### 3.2.8.3 - Tareas de Proyectos (Video 091)
+##### 3.2.8.4 - Registro de Horas (Video 092)
+#### 3.2.9 - Bienes o Activos
+##### 3.2.9.2 Equipo de mantenimiento de activos (Video 093)
+##### 3.2.9.3 Mantenimiento de activos (Video 094)
+##### 3.2.9.4 Registro de mantenimiento de activos (Video 095)
+##### 3.2.9.5 Reparación de activos (Video 096)
+#### 3.2.10 - Herramientas
+##### 3.2.10.1 - Tareas (Video 097)  ARREGLAR CUENTA, 97 VA AQUI
+##### 3.2.10.2 - Archivos (Video 098)
+##### 3.2.10.3 - Calendario (Video 099)
+##### 3.2.10.4 - Chat (Video 100)
+##### 3.2.10.5 - Nota (Video 101)
+##### 3.2.10.6 - Actividad (Video 102)
+##### 3.2.10.7 - Grupo de Correo electronico (Video 103) 
+##### 3.2.10.8 - Boletín de noticias (Video 104)
+#### 3.2.11 - Sitio Web
+##### 3.2.11.1 - Configuracion del Sitio Web (Video 105)
+##### 3.2.11.2 - Configuración de información de la compañía (Video 106)
+##### 3.2.11.3 - Configuración de contácto (Video 107)
+##### 3.2.11.4 - Tema del sitio web (Video 108)
+##### 3.2.11.5 -  Configuración del portal (Video 109)
+##### 3.2.11.6 - Página Principal (Video 110)
+##### 3.2.11.7 - Configuracion del Blog (Video 111)
+##### 3.2.11.8 - Entrada en el Blog (Video 112)
+### 3.3 Conclusión Modulo 3
+
 [pendiente]
 TK #Pendiente de escribir procedimiento
 1.5.2 - Instalación en servidor remoto
