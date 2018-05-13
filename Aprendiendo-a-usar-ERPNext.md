@@ -561,16 +561,90 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/education)
 
 ## Modulo 11: Agricultura
-Referir a [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
 
-## Module 12: Salud
-Refer to [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/healthcare)
+## Modulo 12: Salud
+### 2.1 - Configuración
+### 2.2 - Paciente
+### 2.3 - Cita de paciente
+### 2.4 - Signos vitales
+### 2.5 - Consulta
+### 2.6 - Registro Médico del paciente
+### 2.7 - Toma de muestras
+### 2.8 - Prueba de laboratorio
+### 2.9 - Facturacion
+### 2.10 - Doctor
+### 2.11 - Horario del doctor
+### 2.12 - Estándares Legales Médicos
 
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/healthcare)
 
+## Modulo 13: Organizaciones Sin Fines de Lucro
+### 13.1 - Membresía
+### 13.2 - Capitulo
+### 13.3 - Voluntario
+### 13.4 - Donante
+### 13.5 - Aplicación para solicitar fondos
 
-# TRABAJO EN PROCESO ABAJO, HACER CASO OMISO.
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/non_profit)
 
-#### 5.2.10 - Modificando el programa desde la base
-##### 5.2.10.5 - Modificando Archivos (Video 254)
-##### 5.2.10.6 - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
-##### 5.2.10.9 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
+## Modulo 14: Hospitalidad
+### 14.1 - Restaurant
+### 14.2 - Menú de Restaurant
+### 14.3 - Reservaciones de Restaurant
+### 14.4 - Pedido de Restaurante
+### 14.5 - Habitación de Hotel
+
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/hospitality)
+
+## Modulo 15: Programando y Contribuyendo
+### 15.1 - Aportando traducciones
+#### 15.1.1 - Acceso al portal
+#### 15.1.2 - Agregando idioma no listado
+#### 15.1.3 - Acceso al portal
+#### 15.1.4 - Distribuyendo el trabajo: Imprimiendo los mensajes en una hoja para entrevistas de campo
+#### 15.1.5 - Anotando en una hoja en el campo, entrevistando a uno o dos parlantes nativos
+### 15.2 - Aportando plan de cuentas regionalizados
+#### 15.2.1 - Aportando ideas o sugerencias de mejora
+#### 15.2.2 - Aportando informes de errores
+### 15.3 - Desarrollando Aplicaciones
+#### 15.3.1 - Antes de desarrollar 
+	Revisa primero los forums para ver si hay ya un proyecto en curso que solucione el problema que tienes.
+	Idealmente puedes participar de este proyecto.
+#### 15.3.2 - Desarrollando aplicaciones
+##### 15.3.2.1 - Como hacer una aplicación
+##### 15.3.2.2 - Como usar GitHub
+##### 15.3.2.3 - Creando una instancia de servidor de desarrollo
+##### 15.3.2.4 - Planificando su aplicación
+##### 15.3.2.5 - Creando su aplicación
+##### 15.3.2.6 - Programando con Python
+##### 15.3.2.7 - Programando con JavaScript
+##### 15.3.2.8 - Modificando Archivos (Video 254)
+##### 15.3.2.9  - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
+##### 15.3.2.10 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
+##### 15.3.2.11 - Haciendo pruebas
+##### 15.3.2.12 - Creando Documentacion
+##### 15.3.2.13 - Publicando su aplicación
+##### 15.3.2.14 - Mantenimiento de su aplicación
+#### 15.3.3 - Desarrollando sobre ERPNext
+##### 15.3.3.1 - Como trabajar con GitHub sobre el repositorio principal
+##### 15.3.3.2  - Solicitando un Pull Request
+
+## Modulo 16: ERPNext Hub
+## Modulo 17: Calendario y Contactos
+## Modulo 18: Consolidación de cuentas para empresas matrices, hijas o hermanas
+## Modulo 19: [*Reservado*] Aplicación propia SHS (Revelare)
+Aplicación propia hecha por SHS en alfa (mayo 2018), con objetivo de contribuir al repositorio principal ERPNext
+## Modulo 20: [*Reservado*] Aplicación propia SHS (GEV)
+Aplicación propia hecha por SHS en alfa (mayo 2018), con objetivo de contribuir al repositorio principal ERPNext
+## Modulo 21: [*Reservado*] Aplicación propia SHS (Facelec)
+Aplicación propia hecha por SHS en version 2.1.1 (mayo 2018), con objetivo de contribuir al repositorio principal ERPNext
+## Modulo 22: [*Reservado*] Aplicación propia SHS (Accesos Bancarios)
+Aplicación propia hecha por SHS en fase de planificación. Regional. Objetivos:
+
+* Acceso de records bancarios
+* Programando pagos
+* Autorizando Pagos
+* Suplementando modulo de conciliación bancaria en ERPNext
+ 
+# ESTE DOCUMENTO ES TRABAJO EN PROCESO!
