@@ -563,7 +563,7 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 ## Modulo 11: Agricultura
 Referir a [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
 
-## Module 12: Healthcare
+## Module 12: Salud
 Refer to [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/healthcare)
 
 
