@@ -518,20 +518,59 @@ Qué veremos aquí
 ##### 5.2.6.7 - Eficiencia del propietario de la iniciativa (Video 247)
 #### 5.2.9 - Bienes o Activos
 ##### 5.2.9.1 - Movimiento de activo (Video 248)
-##### 5.2.9.2 - Depreciaciones de Activos y Saldos (Video 249)
-#### 5.2.10 - Modificando el programa desde la base
+##### 5.2.9.2 - Libro de Depreciacion de Activos NO SE HA ASIGNADO VIDEO
+#### 5.2.10 - Mantenimiento del programa
 ##### 5.2.10.1 - Accesando linea de comandos - linux (Video 250)
 ##### 5.2.10.2 - Terminal iTerm (Video 251)
 ##### 5.2.10.3 - Haciendo snapshots (VirtualBox, u otras opciones) (Video 252)
-##### 5.2.10.4 - El folder de ERPNext (Video 253)
+##### 5.2.10.4 - Instalación en servidor remoto NO HAY VIDEO ASIGNADO
+##### 5.2.10.5 - Configurando SSL con Let's Encrypt NO HAY VIDEO ASIGNADO
+##### 5.2.10.5 - El folder de ERPNext: Frappe-Bench (Video 253)
+##### 5.2.10.6 - Actualizando la Aplicación NO HAY VIDEO ASIGNADO
+##### 5.2.10.7 - GitHub y Versiones de control (Video 256)
+##### 5.2.10.8 - Modo desarrollador y consola desarrollo del navegador (Video 257)
+
+### 5.3 Conclusión Modulo 5
+
+## Modulo 6: Manufactura (Temas pendientes o avanzados)
+Ya se vieron anteriormente, pero aquí se pueden hacer videos especificos de ejemplos mas avanzados, o casos.
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/manufacturing)
+
+## Modulo 7: Servicios (Temas pendientes o avanzados)
+Ya se vieron anteriormente, pero aquí se pueden hacer videos especificos de ejemplos mas avanzados, o casos.
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/projects)
+
+## Modulo 8: Ventas al detalle (Modulo de POS)
+## 8.1 - Punto de Venta POS
+### 8.1.1 - Como Funciona
+### 8.1.2 - Configurando el Punto de Venta POS
+### 8.1.3 - Como hacer una venta POS
+### 8.1.4 - Usando sin conexión a Internet - Almacenaje de datos local
+
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/accounts/point-of-sale-pos-invoice)
+
+## Modulo 9: Stock Module Additional Topics
+## 9.1 - Topicos de inventario y Distribución
+### 9.1.1 - Retorno de compra
+### 9.1.2 - Retorno de venta
+### 9.1.3 - Inventario de muestra
+
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/stock)
+
+## Modulo 10: Educación
+Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/education)
+
+## Modulo 11: Agricultura
+Referir a [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
+
+## Module 12: Healthcare
+Refer to [odocumentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/healthcare)
+
+
+
+# TRABAJO EN PROCESO ABAJO, HACER CASO OMISO.
+
+#### 5.2.10 - Modificando el programa desde la base
 ##### 5.2.10.5 - Modificando Archivos (Video 254)
 ##### 5.2.10.6 - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
-##### 5.2.10.7 - GitHub y Versiones de control (Video 256)
-##### 5.2.10.8 - Modo desarrollador y consola desarrollo navegador (Video 257)
 ##### 5.2.10.9 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
-Que vimos aquí
-
-
-[pendiente]
-TK #Pendiente de escribir procedimiento
-1.5.2 - Instalación en servidor remoto
