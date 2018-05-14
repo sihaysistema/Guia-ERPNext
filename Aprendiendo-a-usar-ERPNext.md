@@ -617,6 +617,124 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 ##### 15.3.2.3 - Creando una instancia de servidor de desarrollo
 ##### 15.3.2.4 - Planificando su aplicación
 ##### 15.3.2.5 - Creando su aplicación
+Antes de crear su app, abra [esta página](https://octicons.github.com/) en su navegador 
+web y encuentre el nombre del icono que desea utilizar para su aplicación.
+
+También necesita elegir un color para el cuadro de atrás del icono, puede ser:
+
+Nombre estándar de HTML: **blue**
+o
+Valor de color en hexadecimal: **#000000**
+
+Encuentre algunas ideas aquí: [https://www.w3schools.com/colors/colors_names.asp](https://www.w3schools.com/colors/colors_names.asp)
+
+También necesita considerar que licencia utilizará para publicar su aplicación.
+Anote la palabra clave para la licencia.
+
+Algunas ideas aquí: [https://help.github.com/articles/licensing-a-repository/](https://help.github.com/articles/licensing-a-repository/)
+
+Si ya tiene una instancia de ERPNext corriendo, también necesita el nombre del sitio de su instancia de ERPNext.
+
+Desde la terminal o iTerm, en una conexión a su servidor con SSH o directamente:
+
+1. Navegue al folder Frappe-Bench folder
+	```cd /home/frappe/frappe-bench/```
+2. Cree la aplicación
+>```bench new-app [el_nombre_de_su_aplicación]```
+
+Ejemplo:
+> ```bench new-app mi-nueva-app```	
+
+3. Se le pedirá:
+	* Una linea simple con descripción de su aplicación
+	* Quién publica el app (empresa, equipo, o persona)
+	* Correo electrónico de quien publica el app
+	* Icono de la aplicación: **octicon octicon-[name]**
+	* Color del modulo de la aplicación: **#000000**
+	* Licencia: **gpl-3.0**
+4. Instale la aplicación a su sitio. Repita el comando para cualquier otro sitio en donde usted quiera la aplicación
+> ```bench --site [nombre_del_sitio] install-app [el_nombre_de_su_aplicación] ```
+
+Ejemplo:
+
+> ```bench --site site1.local install-app mi-nueva-app```
+
+* Nota: , la aplicación ya está instalada, pero no se mostrará el ícono en el escritorio o
+	tampoco lo podrá encontrar allí. ¡Esto sucederá hasta que haya creado el primer DocType!
+
+5. Cree su primer Tipo de Documento
+	* Abra su navegador y escriba la dirección del servidor en donde tiene instalado ERPNext.
+	* Haga Login
+	* Media vez esta en el escritorio de ERPNext, haga clic en el *Awesome Bar* arriba y escriba:
+	**new DocType**
+	* Presione ENTER
+	* Una página de configuración de nuevo DocType se abrirá
+	* Sugiero que cree un DocType de configuración para su aplicación de primero.
+		* En el campo *Is Single* seleccione **YES (SI)**
+		* En el campo de *Name* (Nombre): **Configuration**
+	* Clic en **Save** (Guardar)
+* Nota: Si
+
+6. Habilite modo desarrollador en la terminal
+
+> ```cd /home/frappe/frappe-bench/sites/[your_site_name]```
+
+Luego, abra el archivo site_config.json para agregar la linea de codigo que enciende el modo desarrollador:
+
+> ```nano site_config.json```
+
+Agregue la siguiente línea, justo después de **"db_password": "password_de_su_db"**,
+
+> ```"developer_mode": 1,```
+
+Ahora, salga, guarde y confirme: **CTRL + X, Y, ENTER**
+
+7. Encuentre la aplicación en los directorios de linux:
+Para modificar su aplicación, puede accesar el directorio en donde reside adentro del siguiente folder, y modificar los archivos
+
+> ```cd /home/frappe/frappe-bench/apps/[el_nombre_de_su_aplicación]```
+
+8. Opcional: Configure el folder de su aplicación para rastrear los cambios con GitHub
+Media vez esté adentro del directorio, ejecuta los siguientes comandos:
+
+> ```git init```
+
+Lo confirmará, si tiene éxito, con :
+**Initialized empty Git repository in /home/frappe/frappe-bench/apps/[el_nombre_de_su_aplicación]/.git/**
+
+9. Agregue archivos al repositorio local de git
+Esto agregará todos los archivos que tiene el el directorio, al repositorio git local:
+
+> ```git add .```
+
+10. Ahora, confirme sus cambios
+Esto prepara los cambios y los coloca en el area de preparación de donde se empujarán los archivos.
+
+> ```git commit -m "[Agregue un memo corto de su elección aquí]"```
+
+11. Solo una vez: Si no lo  [ha hecho todavía](https://help.github.com/articles/create-a-repo/), vaya a su repositorio remoto en GitHub
+	o cualquier otro servidor y haga clic en el link de copiar la dirección web del repositorio remoto, que está arriba a la derecha.
+	
+> ```git remote add origin [URL_que_usted_copió]```
+
+Esto configurará el repositorio remoto por defecto a donde empujará y de donde jalará cambios.
+Lo puede verificar con:
+> ```git remote -v```
+
+Debería obtener:
+> origin  https://github.com/user/repo.git (fetch)
+
+> origin  https://github.com/user/repo.git (push)
+
+12. Finalmente, empuje sus cambios al repositorio remoto
+
+**Importante: ¡El siguiente comando asume que el repositorio remoto está vacío!**
+> ```git push -u origin master --force```
+
+Para cualquier empuje en el futuro, solamente utilice:
+
+> ```git push origin master```
+
 ##### 15.3.2.6 - Programando con Python
 ##### 15.3.2.7 - Programando con JavaScript
 ##### 15.3.2.8 - Modificando Archivos (Video 254)
