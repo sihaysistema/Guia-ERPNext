@@ -113,6 +113,15 @@ En este módulo conoceremos como operar el programa, como configurar lo más bá
 
 ### 2.1 Operación Básica
 #### 2.1.1 Como Hacer login ([Video 002](https://youtu.be/Znj-Fy_BRwA))
+1. Abra su navegador web
+2. Coloca la dirección IP o dominio de ERPNext en la barra de direcciones de su navegador
+3. Cuando cargue la página de acceso a ERPNext, si no hay dos campos par aingresar usuario y contraseña,
+	presione el enlace de arriba a la derecha para elegir el objeto del menu que dice: "Ir a Escritorio"
+4. Ingrese su usuario
+5. Ingrese su contraseña
+6. Presiona **Sign In** o **Acceder**
+7. Listo, se debe mostrar el escritorio
+
 #### 2.1.2 Configure su usuario ([Video 003](https://youtu.be/tdKe0_IM1DA))
 ##### 2.1.2.0 Configure iconos del escritorio de trabajo ([Video 004](https://youtu.be/ZJu6lH4DGh4))
 ##### 2.1.2.1 Agregue usuario (Video 005)
