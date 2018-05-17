@@ -350,6 +350,141 @@ Que veremos aquí
 ##### 4.1.3.4 - Modulo de Educacion (Video 116)
 ##### 4.1.3.6 - Modulo de Servicios (Video 117)
 ##### 4.1.3.7 - Modulo de Manufactura (Video 118)
+##### 4.1.3.8 - Modulo de Conexión para Shopify NO VIDEO [Seminario Web Shopify/ERPNext](https://youtu.be/sd2p-0jATzc) 
+Con esta integración a ERPNext:
+* Cuando agrega un **Producto** o **Cliente** a una cuenta de Shopify, se sincroniza con ERPNext automaticamente.
+* Si agrega un nuevo **Producto** o **Cliente** en su cuenta de ERPNext, se sincronicará automaticamente con Shopify.
+* Usted puede realizar manualmente la sincronización de **Productos** o **Clientes**.
+* Puede recibir los pedidos de clientes de Shopify directamente en ERPNext.
+Requisitos:
+* Cuenta de Shopify
+* Servidor ERPNext con dominio: p. ej. su-dominio.com
+
+###### 4.1.3.8.1 - Pasos de Configuracion en ERPNext para simplifcar
+1. Prepare un **Listado de Precios** en ERPNext específicamente para los Productos que venderá en **Shopify**, si desea.
+2. Prepare un **Almacén** en ERPNext para los **Productos** que llevará registro del inventario de ventas para **Shopify**
+3. Prepare una **Cuenta** en donde los depósitos de las ventas de **Shopify** se registrarán, bajo activos corrientes o de corto plazo.
+4. Prepare una Secuencia y Serie especifica para las *Órdenes de Venta* que creará con Shopify, si desea diferenciarlas de otras *Órdenes de Venta*.
+5. Prepare una Secuencia y Serie especifica para las *Notas de Entrega*, si desea diferenciarlas de otras *Notas de Entrega*.
+6. Prepare una Secuencia y Serie especifica para las *Facturas de Venta*, si desea diferenciarlas de otras *Facturas de Venta*.
+
+###### 4.1.3.8.2 - Agregue la aplicación de ERPNext a su cuenta de Shopify
+* En la pantalla de administración de su cuenta de Shopify, en la parte de abajo verá un enlace que dice **Apps**
+* Haga click en el enlace para abrir la tienda de aplicaciones de Shopify.
+* Busque la aplicación llamada: **ERPNext Connector**
+* Haga click en **Get** para instalar en su cuenta de Shopify
+	Esta ventana le notificara que ERPNext podrá hacer lo siguiente:
+	* Modificar productos, variantes y colecciones.
+	* Modificar detalles de cliente y grupos de clientes
+	* Modificar pedidos, transacciones y entregas o cumplimientos
+
+* Clic en **Install App**
+* Ingrese los datos requeridos:
+	*Shop Name*: Ingrese el nombre de su tienda web como se lo proporciona Shopify:  [su-tienda].shopify.com
+	*ERPNext Site Name*: Este es el nombre de dominio en el cual esta corriendo ERPNext. Ejemplo: sitioprueba.com
+	*ERPNext User Id*: Ingrese el ID de usuario (direccion de correo electrónico) del usuario que tendra acceso a sincronizar.
+	*Password*: La contraseña asociada con el usuario de ERPNext indicado arriba.
+* Clic en el botón de **Submit**
+* El sitio de Shopify debería de mostrar que se instaló correctamente la aplicación de ERPNext bajo el subtítulo: **Installed apps**
+###### 4.1.3.8.2 - Configure ERPNext para que se conecte a Shopify
+Idealmente, el servidor de ERPNext se actualizará automáticamente para agregar la aplicación de Shopify.
+Si no es el caso, asegúrese de instalar la aplicación en: **Configuración > Aplicaciones > Instalador de Aplicaciones > ERPNext Shopify**
+
+1. Para acceder a la configuración de Shopify escriba esto en la barra superior que muestra ERPNext llamada "*Awesome Bar*": **Shopify settings**
+2. Asegurese que la caja para marcar titulada **Enable Shopify** este marcada.
+3. *App Type*: **Public**
+4. *Shop URL*: Ingrese el nombre de la tienda Shopify como lo tiene arriba **[your_store].shopify.com**
+5. *Price List*: Seleccione el listado de precios de ERPNext que utilizará por default.
+6. *Warehouse*: Seleccione el almacén de donde despachará los **Productos** que se pidan en Shopify.
+7. *Cash/Bank Account*: Confirme la cuenta de ERPNext que registrará contablemente los depositos de las ventas de Shopify.
+8. *Customer Group*: Aunque esto se configura automáticamente desde Shopify, lo puede colocar manualmente aqui.
+9. *Sales Order Series*: Eliga la Secuencia y serie para generar automáticamente cuando un pedido de Shopify se sincronize con ERPNext
+10. Conecte categoría de Impuesto y Costos de Envío a su cuenta respectiva de ERPNext.
+	10.1 Agregue una fila en donde define el Título del Impuesto o cargo de Costo de Envío.
+	10.2 En la misma fila, seleccione la cuenta de ERPNext en donde usted desea contabilizar estos cargos
+	10.3 El **Titulo** debe ser igual al nombre de los rubros adicionales en el pedido o factura de Shopify. ??? TK
+11. *Import Delivery Notes from Shopify on Shipment* (Importe las Notas de Entrega al Despachar Envío):  
+	Si desea crear una **Nota de Entrega** basado en los productos marcados como enviados en Shopify.
+	11.1 Debe seleccionar la serie de **Nota de Entrega** que desea para que esto funcione adecuadamente.
+12. *Import Sales Invoice from Shopify if Payment is marked* (Importe las Facturas de Venta si hay Pago Realizado): 
+	Si desea crear una **Factura de Venta** en ERPNext si la factura de SHopify indica que ya fue pagada.
+	12.1 Debe seleccionar la serie de **Factura de Venta** que desea para que esto funcione adecuadamente.
+	
+###### 4.1.3.8.3 - Sincronice Productos de Shopify a ERPNext
+1. Desde ERPNext, para sincronizar manualmente vaya a 
+	**Shopify settings** ingresando el texto en la barra superior "*Awesome Bar*" y haga clic en **Sync Shopify** (Sincronizar Shopify)
+2. Un mensaje saldrá indicando: 
+	*"Queued for syncing. It may take a few minutes to an hour if this is your first sync."*
+	*(En cola para sincronizar. Puede tomar unos minutos hasta una hora si esta es su primer sincronización)*
+3. En la misma página le mostrará un indicador amarillo, haciéndole ver que:
+	*"The Last sync request is queued"*
+	*(La última solicitud de sincronización esta en cola)*
+	Este mensaje cambiará a:
+	*Last sync request was successful*
+	*(La ultima solicitud de sincronización fue exitosa)*
+	Cuando haya finalizado exitosamente la última sincronización.
+4. Si presiona el botón de **Shopify Log** (Bitácora de Shopify), podrá ver todos los registros de
+	sincronización con su título como un a pre-confirmación del estatus y su estatus como
+	*Exitoso* o **Falló*
+5. Si ahora va a **Almacén > Productos**, usted verá los Productos recién sincronizados desde Shopify.
+	Cada producto estará identificado con una serie numérica: **Shopify Product ID** (Identificador de Producto Shopify), y también
+	verá las características que obtuvo de Shopify como Descripción, Imagen, etc.
+
+###### 4.1.3.8.4 - Sincronice Productos de ERPNext a Shopify
+1. Vaya a **Almacén > Productos** y abra cada Producto que desea sincronizar hacia Shopify
+2. Cada **Producto** tiene una caja para marcar que indica **Sync With Shopify** (Sincronizar con Shopify). Asegúrese de marcar esta caja y 
+	**Guarde** el **Producto** para confirmar los cambios.
+3. Si tambiñen desea sincronizar las existencias en su Almacén de ERPNext hacia Shopify, entonces
+	marque la caja **Sync Quantity With Shopify** (Sincronizar Cantidad/Existencias con Shopify).
+	No olvide, **Guardar** el **Producto** para confirmar los cambios.
+4. Vaya a **Shopify settings** y haga clic en **Sync Shopify** (Sincronizar Shopify) nuevamente para empujar la data de los Productos de ERPNext a Shopify.
+5. Si usted visita su página de productos en Shopify, usted verá los productos que acaba de sincronizar desde ERPNext.
+
+###### 4.1.3.8.5 - Sincronice Clientes desde Shopify a ERPNext
+1. En **Shopify**, puede agregar clientes que se sincronizan con ERPNext automáticamente.
+2. En **ERPNext** vaya a **Shopify settings** y haga clic en **Sync Shopify** para sincronizar clientes.
+3. Toda la data, incluyendo direcciones, será sincronizada a cada cliente en **Clientes** de ERPNext.
+###### 4.1.3.8.6 - Sincronice Clientes desde ERPNext a Shopify
+Para Sincronizar un **Cliente** desde **ERPNext** a **Shopify**:
+
+1. Abra el documento del **Cliente** deseado.
+2. Navegue hacia abajo en la página y en la sección de **Más Información** marque la caja titulada: **Sync With Shopify** (Sincronizar con Shopify)
+3. **Guarde** el **Cliente** para confirmar los cambios.
+4. Vaya a **Shopify settings** y haga clic en **Sync Shopify** para copiar el Cliente a Shopify.
+
+###### 4.1.3.8.7 - Sobre las Ordenes de Venta o Pedidos
+Los pedidos se sincronizan solo de una vía: Desde Shopify hacia ERPNext.
+> ERPNext solo obtiene o jala pedidos de Shopify!
+Sus clientes "de cliente a empresa" hacen sus pedidos en **Shopify**, no en el portal de ERPNext.
+Sus clientes "de empresa a empresa" pueden hacer sus pedidos en su portal de ERPNext configurado para el efecto.
+Aunque tenga productos mostrados en su sitio web originando de ERPNext, el enlace para colocar un pedido debe llevarlo a su tienda Shopify
+Media vez el pedido se ha hecho por el cliente, el pedido se sincronizará automáticamente hacia ERPNext.
+Una orden de venta creada en ERPNext no se sincronizará a **Shopify**. Solamente obtendrá ordenes de venta desde **Shopify** hacia **ERPNext**.
+###### 4.1.3.8.8 - Notas de Entrega
+Si la caja para marcar **Notas de Entrega** esta seleccionada, ERPNext los sincrinizará y enlazará automáticamente
+a **Ordenes de Venta**, **Facturas de Venta** o **Pagos**, en caso exista alguno.
+Las **Notas de Entrega** tendrán dos campos de datos: El **Shopify Order ID** (Identificador de Pedido de Shopify) y **Shopify Fulfillment ID** (Identificador de Entrega Completa Shopify) cuando se sincronizen en Shopify.
+Las **Notas de Entrega** de la sincronizacion quedarán **siempre** en estatus de **Borrador** para que pueda editarlas manualmente antes de validarlas.
+Una **Nota de Entrega** validada por un usuario de ERPNext que cumple con el pedido de **Orden de Venta** o la **Factura de Venta** significa que el pedido ha sido cumplido a su enteridad.
+Muy importante: Una **Nota de Entrega** creada primero en ERPNext, NO se sincronizará a Shopify! Solamente funciona desde **Shopify** hacia **ERPNext**.
+###### 4.1.3.8.9 - Facturas de Venta
+Si la caja de selección de **Factura de Venta** se selecciona en los ajustes de Shopify, ERPNext creará la **Factura de Venta** automáticamente.
+Estas **Facturas de Venta** estarán enlazadas a **Notas de Entrega**, **Ordenes de Venta** y **Pagos** en caso existan.
+Si el pagop ha sido recibido en **Shopify**, se creará un **Pago** automáticamente en ERPNext.
+
+###### 4.1.3.8.10 - Algunas notas adicionales
+Cuando los Productos se sincronizan de Shopify, el identificador único de Shopify es copiado a ERPNext.
+Esto sirve para que no se sincronize mas de dos veces a Shopify desde ERPNext en la sincronización.
+El listado de precios también se actualiza cuando se sincronizan productos y pedidos de Shopify.
+
+La aplicación Shopify tiene una configuración del calendarizador de linux que sincronizará shopify frecuentemente (Tiempos precisos?)
+
+Preguntas pendientes de responder: 
+Que sucede si el impuesto sobre el valor agregado (IVA) ya está incluido en el precio de venta en Shopify?
+Como se procesa un retorno de un cliente?:
+1. Con reembolso?
+2. Sin reembolso?
+
 #### 4.1.2 - Copias de respaldo de datos (Video 119)
 #### 4.1.3 - Personalización de formularios (Video 120)
 	Agregando nuevos campos a doctypes principales (Customize)
@@ -605,18 +740,42 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 #### 15.1.4 - Distribuyendo el trabajo: Imprimiendo los mensajes en una hoja para entrevistas de campo
 #### 15.1.5 - Anotando en una hoja en el campo, entrevistando a uno o dos parlantes nativos
 ### 15.2 - Aportando plan de cuentas regionalizados
-#### 15.2.1 - Aportando ideas o sugerencias de mejora
-#### 15.2.2 - Aportando informes de errores
-### 15.3 - Desarrollando Aplicaciones
-#### 15.3.1 - Antes de desarrollar 
+#### 15.3 - Aportando ideas o sugerencias de mejora
+#### 15.4 - Aportando informes de errores
+### 15.5 - Desarrollando Aplicaciones
+#### 15.5.1 - Antes de desarrollar 
 	Revisa primero los forums para ver si hay ya un proyecto en curso que solucione el problema que tienes.
 	Idealmente puedes participar de este proyecto.
-#### 15.3.2 - Desarrollando aplicaciones
-##### 15.3.2.1 - Como hacer una aplicación
-##### 15.3.2.2 - Como usar GitHub
-##### 15.3.2.3 - Creando una instancia de servidor de desarrollo
-##### 15.3.2.4 - Planificando su aplicación
-##### 15.3.2.5 - Creando su aplicación
+#### 15.5.2 - Desarrollando aplicaciones
+##### 15.5.2.1 - Como hacer una aplicación
+##### 15.5.2.2 - Como usar GitHub
+##### 15.5.2.3 - Creando una instancia de servidor de desarrollo desde cero con VirtualBox
+* Estos pasos le guiarán para instala una máquina virtual con un servidor Linux .iso hasta que tenga un servidor ERPNext funcional para uso local
+	* Estas instrucciones se basan en lo que ha servido para nosotros
+	* Esta configuración   This setup is only recommended for a server that will be used locally!
+###### 15.5.2.3.1 - Download and install VirtualBox
+1. Visite https://www.virtualbox.org/
+2. Clic en el botón azul grande para descargar: "Download Virtual Box 5.x"
+3. Seleccione su sistema operativo y descaruge el archivo
+4. Instale VirtualBox
+5. Corra VirtualBox
+###### 15.5.2.3.2 - Download Linux
+Personalmente me gusta correr mis servidores de desarrollo en Linux Server. Quizás pueda querer usar [Ubuntu Desktop](http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-i386.iso.torrent).
+Para prevenir temas de compatibilidad, recomiendo el [servidor de 32-bit Ubuntu 14.04 LTS](http://releases.ubuntu.com/16.04/ubuntu-16.04.4-server-i386.iso.torrent).
+Visite la [Página de Ubuntu](https://www.ubuntu.com/download) para elegir la versión apropiada a sus necesidades.
+
+También sugiero el uso de un administrador de torrentes, así obtendra descargas muy rápidas.
+Personalmente utilizo [μTorrent](http://www.utorrent.com/)
+y en una conexión de 10Mb logro descargarlo en menos de 15 minutos.
+
+1. Vaya a la [Página de Ubuntu](https://www.ubuntu.com/download) y seleccione la versión adecuada a sus necesidades
+2. Media vez ha seleccionado lo que necesita, haga click para bajar el archivo
+3. La descarga sera un archivo de tipo **.torrent**
+4. Si le hace doble clic o lo abre en su administrador de torrentes, lo agregará a la lista de torrentes
+5. Asegúrese que ha iniciado el torrente y permita que comparta el archivo un tiempo después de finalizada la descarga
+6. El resultado sera un archivo **.iso** que utilizará para preparar su servidor de desarrollo
+##### 15.5.2.4 - Planificando su aplicación
+##### 15.5.2.5 - Creando su aplicación
 Antes de crear su app, abra [esta página](https://octicons.github.com/) en su navegador 
 web y encuentre el nombre del icono que desea utilizar para su aplicación.
 
@@ -735,18 +894,18 @@ Para cualquier empuje en el futuro, solamente utilice:
 
 > ```git push origin master```
 
-##### 15.3.2.6 - Programando con Python
-##### 15.3.2.7 - Programando con JavaScript
-##### 15.3.2.8 - Modificando Archivos (Video 254)
-##### 15.3.2.9  - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
-##### 15.3.2.10 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
-##### 15.3.2.11 - Haciendo pruebas
-##### 15.3.2.12 - Creando Documentacion
-##### 15.3.2.13 - Publicando su aplicación
-##### 15.3.2.14 - Mantenimiento de su aplicación
-#### 15.3.3 - Desarrollando sobre ERPNext
-##### 15.3.3.1 - Como trabajar con GitHub sobre el repositorio principal
-##### 15.3.3.2  - Solicitando un Pull Request
+##### 15.5.2.6 - Programando con Python
+##### 15.5.2.7 - Programando con JavaScript
+##### 15.5.2.8 - Modificando Archivos (Video 254)
+##### 15.5.2.9  - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
+##### 15.5.2.10 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
+##### 15.5.2.11 - Haciendo pruebas
+##### 15.5.2.12 - Creando Documentacion
+##### 15.5.2.13 - Publicando su aplicación
+##### 15.5.2.14 - Mantenimiento de su aplicación
+#### 15.5.3 - Desarrollando sobre ERPNext
+##### 15.5.3.1 - Como trabajar con GitHub sobre el repositorio principal
+##### 15.5.3.2  - Solicitando un Pull Request
 
 ## Modulo 16: ERPNext Hub
 ## Modulo 17: Calendario y Contactos
