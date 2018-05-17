@@ -140,8 +140,7 @@ En este módulo conoceremos como operar el programa, como configurar lo más bá
 	para mostrar un menú desplegable.
 2. Haga clic en **Mi Configuracion** o **My Settings**
 3. En el campo de *Idioma* o *Language*, desplácese para seleccionar
-4. Seleccione uno
-5. Desplácese hacia arriba
+4. Seleccione uno haciendo clic sobre él o escribiéndolo.
 6. Desplácese hacia arriba y haga clic en **Guardar**
 
 ##### 2.1.2.3 - Agregue mas informacion
