@@ -177,7 +177,22 @@ En este módulo conoceremos como operar el programa, como configurar lo más bá
 4. Haga Clic en la x al lado del nombre del archivo ya adjunto para eliminar el fondo de
 	escritorio.
 
-##### 2.1.2.0 Configure iconos del escritorio de trabajo ([Video 004](https://youtu.be/ZJu6lH4DGh4))
+
+
+##### 2.1.2.6 - Configure iconos del escritorio de trabajo ([Video 004](https://youtu.be/ZJu6lH4DGh4))
+1. Desde el escritorio, haga clic arriba a la derecha en la imagen de su usuario
+	para mostrar un menú desplegable.
+2. Haga clic en **Establecer Iconos de escritorio** o **Set Desktop Icons**
+3. Puede elegir cambiar **Por Usuario** y su usuario, o puede elegir a todos
+4. Puede tambien **Seleccionar todos** y luego hacer clic para desmarcar.
+5. Seleccione los módulos que desea que se muestren en el escritorio
+6. Desplácese hacia arriba y haga clic en **Guardar**
+
+> Para mover los iconos, haga clic y detener hasta que los iconos se sacudan
+	Luego mueva el icono al lugar deseado
+	Al terminar haga clic en el escritorio para que se queden quietos
+> Para eliminarlos siga el mismo procedimiento indicado arriba, solo que haga clic en la x para borrarlos
+
 ##### 2.1.2.1 Agregue usuario (Video 005)
 #### 2.1.3 El marco de Frappé ([Video 006](https://youtu.be/DjkP1ie9D3k))
 * Imagenes
