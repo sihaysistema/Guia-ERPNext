@@ -177,8 +177,6 @@ En este módulo conoceremos como operar el programa, como configurar lo más bá
 4. Haga Clic en la x al lado del nombre del archivo ya adjunto para eliminar el fondo de
 	escritorio.
 
-
-
 ##### 2.1.2.6 - Configure iconos del escritorio de trabajo ([Video 004](https://youtu.be/ZJu6lH4DGh4))
 1. Desde el escritorio, haga clic arriba a la derecha en la imagen de su usuario
 	para mostrar un menú desplegable.
@@ -335,6 +333,58 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.1.8 - Factura de venta (Video 055)
 ##### 3.2.1.9 - Factura de compra (Video 056)
 ##### 3.2.1.10 -  Conciliando pagos (Video 057)
+##### 3.2.1.11 - Subscripciones SIN VIDEO
+El módulo se subscripciones en ERPNext le permite crear automáticamente documentos con
+periodicidad.
+Se puede crear subscripciones para documentos como:
+
+* Entrada de Pago
+* Cotizacion de Proveedor
+* Orden de Compra
+* Factura de Compra
+* Recibo de Compra
+* Partida Contable
+* Orden de Venta
+* Factura de Venta
+* Cotizaciones a Clientes
+* Notas de Entrega
+
+
+Los documentos serán creados automáticamente en el momento indicado, en estado de *Borrador*
+Usted puede indicar si desea que se validen automáticamente al momento de ser creados!
+
+Supongamos que usted debe crear una factura de pago por el alquiler mensual manualmente.
+Con subscripciones, usted puede crear la primer factura mensual, y luego habilitar la subscripcion
+para que se genere automáticamente la factura de compra cada mes, en el día que usted elije
+
+###### 3.2.1.11.1 - Creando una subcripcion
+1. Para poder crear una subscripción, debe tener por lo menos un documento creado del tipo de documento que desea repetir.
+	si no lo ha hecho, prepare el primero y guárdelo.
+2. Para crear la subscripción escriba esto en la barra superior que muestra ERPNext llamada "*Awesome Bar*": **New Subscription**
+3. Ingrese el **Tipo de Documento** de referencia para su subscripción
+4. Ingrese la serie y número del documento que desea repetir, este es el documento que creo en el paso 1
+5. Seleccione la frecuencia que desea para la subcripción, esta puede ser:
+	* Diario
+	* Semanal
+	* Mensual:  Debe indicar el día del mes específico en que desea que se repita.
+	* Trimestral: Debe indicar el día específico del mes en que se cumple el trimestre en que desea que se repita.
+	* Semestral
+	* Anual: Debe indicar el día especifico del mes en que se cumple el año en que desea que se repita.
+6. Indique la fecha a partir de la cual se debe de crear el primero de la serie
+7. Indique la fecha a partir de la cual ya no se crearán más documentos automáticos
+	* Si la fecha final es antes de la siguiente fecha estimada en la frecuencia, el programa
+	limitará la creación del documento.
+8. Indique si desea que el documento se *Valide* al momento de la creación
+	* Si usted desea automáticamente facturarle a un cliente, y tiene un envío automático
+	indique que si en este campo, para que se genere la factura y el envío automático.
+9. Indique si desea deshabilitar la subscripción (aunque no desee borrarla)
+10. Indique si desea que se emita una notificación por correo electrónico. Al seleccionar el campo,
+	deberá indicar lo siguiente:
+	* Tema del correo: Puede indicar con formato Jinja, un mensaje dinámico como "Nueva Factura de Venta # 123",
+	en donde 123 es el número del documento creado por la subscripción.
+	* Recipientes del correo, separados por una linea nueva. Puede agregar cuantos recipientes desee
+	* Formato de Impresión
+	* Mensaje: El mensaje del correo deseado, donde podra indicar con formato Jinja, mensajes de tipo dinamico con numeros, nombres de cliente, etc.
 #### 3.2.2 - Recursos Humanos
 ##### 3.2.2.1 - Configuracion de recursos Humanos (Video 058)
 ##### 3.2.2.2 - Lista de festividades (Video 059)
@@ -386,20 +436,62 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.6.3 - Ajustes SMS o mensajería móvil desde ERPNext (Video 085)
 #### 3.2.7 - Manufactura
 ##### 3.2.7.1 - Subcontratación (Video 086)
+La subcontratación permite administrar aquellos productos que usted vende 
+pero que un proveedor le ensambla, pero al cual usted le provee materia prima de sus bodegas.
+
+Si usted ya ha configurado algunos productos para la venta en ERPNext, 
+puede agregarles un identificador como producto subcontratado para facilitarle los pedidos
+al proveedor.
+
+###### 3.2.7.1.1 - Producto subcontratado
+###### 3.2.7.1.2 - Listado de Materiales para Producto subcontratado
+###### 3.2.7.1.3 - Bodega para el Proveedor Subcontratado
+###### 3.2.7.1.4 - Orden de Compra con subcontratación
+###### 3.2.7.1.5 - Orden de Compra con subcontratación
+###### 3.2.7.1.6 - Orden de Compra con subcontratación
+
 ##### 3.2.7.2 - Orden de Produccion (Video 087)
 ##### 3.2.7.3 - Registro de Horas (Video 088)
 #### 3.2.8 - Proyectos
 ##### 3.2.8.1 - Tipos de Proyecto (Video 089)
 ##### 3.2.8.2 - Tipo y Costo de Actividad (Video 090)
 ##### 3.2.8.3 - Tareas de Proyectos (Video 091)
-##### 3.2.8.4 - Registro de Horas (Video 092)
+La tarea es una asignación de trabajo para ser completada en un período de tiempo.
+Una tarea puede existir por sí sola, o puede estar enlazada con un proyecto. 
+Si desea ver como se crea una tarea desde un proyecto, siga las instrucciones desde el proyecto.
+
+Para hacer una nueva Tarea, vaya a **Proyectos > 	Tareas > Nueva**
+Ingrese el *Asunto* o *Título* de la tarea.
+Seleccione si pertenece a un proyecto, si es necesario
+Ingrese la fecha prevista de Inicio y Fin
+Puede ingresar el *Tiempo esperado* de la tarea en horas.
+Tambien puede ingresar el progreso en *Porcentaje*
+Indique los detalles específicos de esta tarea textualmente
+
+Si esta tarea depende de otra tarea, puede indicarlo aquí
+
+Puede asignar o compartir la tarea con sus colegas
+
+
+
+##### 3.2.8.4 - Registro de Horas (Video 092)  
+Para registrar el tiempo usado en una tarea, creamos un registro de horas
+Seleccione el tipo de actividad
+Indique la hora de inicio
+Indique las horas usadas
+Se actualiza la hora de finalizacion
+Guarde el registro.
+
+En la tarea relacionada al registro de tiempo, podrá ver el tiempo invertido en esta tarea
+Si la tarea pertenece a un proyecto, entonces también se actualizará el tiempo invertido alli.
+
 #### 3.2.9 - Bienes o Activos
 ##### 3.2.9.2 Equipo de mantenimiento de activos (Video 093)
 ##### 3.2.9.3 Mantenimiento de activos (Video 094)
 ##### 3.2.9.4 Registro de mantenimiento de activos (Video 095)
 ##### 3.2.9.5 Reparación de activos (Video 096)
 #### 3.2.10 - Herramientas
-##### 3.2.10.1 - Tareas (Video 097)  ARREGLAR CUENTA, 97 VA AQUI
+##### 3.2.10.1 - Tareas (Video 097)
 ##### 3.2.10.2 - Archivos (Video 098)
 ##### 3.2.10.3 - Calendario (Video 099)
 ##### 3.2.10.4 - Chat (Video 100)
@@ -609,6 +701,9 @@ Como se procesa un retorno de un cliente?:
 ##### 4.2.3.6 - Numero de lote (Video 153)
 #### 4.2.4 - Compras
 ##### 4.2.4.1 - Invitando a proveedores al portal ERPNext de su empresa (Video 154)
+Al crear una solicitud de cotización, puede invitar al proveedor a su portal para que realice una oferta
+sobre la solicitud.
+
 ##### 4.2.4.2 - Ingreso de cotizaciones de proveedor al portal ERPNext de su empresa (Video 155)
 #### 4.2.5 - Ventas
 ##### 4.2.5.1 - Regla de envío (Video 156)
@@ -617,7 +712,7 @@ Como se procesa un retorno de un cliente?:
 #### 4.2.6 - CRM (Manejo de Recursos: Clientes)
 ###### 4.2.6.1 - Registro SMS (Video 159)
 ###### 4.2.6.2 - Ajustes de SMS (Video 160)
-##### 4.2.7 - Manufactura
+#### 4.2.7 - Manufactura
 ##### 4.2.7.1 - Ordenes de producción abiertas (Video 161)
 ##### 4.2.7.2 - Ordenes de produccion en progreso (Video 162)
 ##### 4.2.7.3 - Productos entregados desde ordenes de producción (Video 163)
@@ -626,6 +721,14 @@ Como se procesa un retorno de un cliente?:
 #### 4.2.8 - Proyectos
 ##### 4.2.8.1 - Resumen diario de horas (Video 166)
 ##### 4.2.8.2 - Seguimiento preciso del stock (Video 167)
+##### 4.2.8.3 - Informe o Gráfico de Gantt
+Este informe muestra las tareas sobrepuestas contra un calendario
+para visualizar el tiempo requerido y para completar la tarea.
+
+Se puede actualizar el progreso de la tarea (%) desde el gráfico de Gantt
+
+La dependencia de una tarea sobre la otra se vera reflejada con una flecha
+
 #### 4.2.9 - Bienes o Activos 
 ##### 4.2.9.1 - Movimiento de activo (Video 168)
 ##### 4.2.9.2 - Depreciaciones de Activos y Saldos (Video 169)
@@ -824,7 +927,7 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 #### 15.5.1 - Antes de desarrollar 
 	Revisa primero los forums para ver si hay ya un proyecto en curso que solucione el problema que tienes.
 	Idealmente puedes participar de este proyecto.
-#### 15.5.2 - Desarrollando aplicaciones
+#### 15.5.2 - Desarrollando aplicaciones [Original 1 ERPNext](https://youtu.be/TAz3CjO0VGY)
 ##### 15.5.2.1 - Como hacer una aplicación
 ##### 15.5.2.2 - Como usar GitHub
 ##### 15.5.2.3 - Creando una instancia de servidor de desarrollo desde cero con VirtualBox
@@ -996,6 +1099,7 @@ Aplicación propia hecha por SHS en alfa (mayo 2018), con objetivo de contribuir
 Aplicación propia hecha por SHS en version 2.1.1 (mayo 2018), con objetivo de contribuir al repositorio principal ERPNext
 ## Modulo 22: [*Reservado*] Aplicación propia SHS (Accesos Bancarios)
 Aplicación propia hecha por SHS en fase de planificación. Regional. Objetivos:
+# Modulo 23:  [*Reservado*]  Jalar tipo de cambio desde sitio Banguat
 
 * Acceso de records bancarios
 * Programando pagos
