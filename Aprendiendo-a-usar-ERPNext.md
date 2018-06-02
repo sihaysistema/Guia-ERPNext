@@ -278,6 +278,50 @@ de apoyo es un Atributo de Articulo o un Articulo de Factura de Venta.
 ##### 2.2.7.1 Creando un Bien o Activo (Video 037)
 #### 2.2.10 - Sitio Web
 ##### 2.2.10.1 - Creando una Pagina Web (Video 038)
+##### 2.2.10.2 - Pasos para crear una pagina web - Basado en conferencia Octubre 2017
+[Rushabh - Frappe Portal, Website + Web Forms + E-commerce](https://www.youtube.com/watch?v=ruJBetD7In0)
+###### 1 - Prepare su sitio si no lo ha hecho
+Lanze su sitio en un servidor remoto si no lo ha habilitado.
+
+###### 2- Planifique su estructura
+En este caso, el sitio ejemplo maneja eventos. 
+Cada evento tiene una imagen, un titulo, una fecha y un boton para reservar.
+Luego hay contenido sobre lo que el evento posee.
+
+Se creara un modulo para eventos publicos en ERPNext.
+Luego se creará un objeto llamado "Evento".
+Para reservar un ticket, crearemos un objeto "Ticket"
+Esto son dos DocTypes que crearemos.
+Finalmente, crearemos una vista web.
+
+Planifique su "tema" del sitio basado en sus colores.
+
+###### 3 - Configuremos su Sitio Web
+Configuremos el "theme".
+Hay un Standard theme, pero Hagamos uno nuevo.
+**WebSite > Setup > Website Theme**
+
+1. Agregue el nombre del tema que desea
+2. Asegurese que la caja de seleccion **Aplicar estilo** esté marcada. Esta si debe estar elegida para este ejemplo.
+3. Si es un estilo personalizado, marque la caja de **Personalizado?**. Para este ejemplo, no la elija.
+4. Elija si desea aplicar estilo de texto por medio de ERPNext marcando la caja de **Aplicar Estilos de Texto**. Para este ejemplo, no la elija.
+	4.1 Al marcar la caja vera los campos para:
+		4.1.1 Tamaño de la Fuente
+		4.1.2 Fuente de Google (Texto)
+		4.1.3 Fuente de Google (Encabezados)
+		4.1.4 Color del Texto
+		4.1.5 Color de los Enlaces
+		4.1.6 Estilo del Encabezado
+		4.1.7 Color de la Barra Superior
+		4.1.8 Color del Texto de la Barra Superior
+		4.1.9 Color del Pie de Página
+		4.1.10 Color deL Texto del Pie de Página	
+5. En la seccion de **Background**
+	5.1 Elija el color que desea, usando el selector de colores o ingresando un valor HEX: "#FFFFFF"
+	5.2 Puede elejir una imagen, la cual estará sobrepuesta.
+6. En la seccion de estilo usando CSS, usted puede ingresar los elementos CSS personalizados, sustituyendo el paso 4
+7. En la seccion de JavaScript, puede ingresar el JavaScript a la medida que usted desee para la página principal.
+
 ### 2.3 Conclusión Modulo 2
 
 En este módulo hemos aprendido lo más importante de ERPNext.
