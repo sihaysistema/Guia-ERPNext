@@ -7,7 +7,7 @@ Este documento asume que usted tiene curiosidad de saber de qué se trata ERPNex
 
 ### 1.1 Resumen
 ERPnext es un software que corre en una máquina con sistema operativo linux (en Virtualbox
- se puede correr en cualquier sistema oeprativo) o en un servidor. Lo puedes acceder con un avegador
+ se puede correr en cualquier sistema oeprativo) o en un servidor. Lo puedes acceder con un navegador
  web. En este software ingresas registros sobre muchas cosas relacionadas a tu empresa u organización.
 
 * Clientes
@@ -28,6 +28,12 @@ También incorpora ciertas funciones especificas del dominio de ciertas industri
 
 ERPNext cuenta con documentación básica, videos y un grupo de soporte que le puede apoyar mientras esta guía es completada.
 
+ERPNext también tiene una parte que le permite a tus clientes y proveedores acceder a un portal para
+ gestionar información relacionada con tu empresa, asi como un sitio web para comercio electrónico.
+ 
+* Portal clientes y proveedores
+* Sitio Web
+* Comercio electronico (e-commerce)
 
 ### 1.2 Estructura
 The following course or tutorial is divided into 5 modules, which will enable you to master ERPNext.
@@ -262,6 +268,9 @@ de apoyo es un Atributo de Articulo o un Articulo de Factura de Venta.
 #### 2.2.7 - Manufactura
 ##### 2.2.7.1 - Listado de materiales (Video 034)
 	Para manufactura o subcontratación
+	Es esencial para crear un listado de materiales, tener un ingreso a almacen o bodega, o un recibo de compra, de todos y cada uno de los materiales a ser utilizados en el listado de materiales.
+	Esto implica que los articulos o productos (items) ya deben de estar creados, así como un ingreso a bodega o un recibo de compra.
+	Para el producto que se manufactura, solo debe existir el articulo o producto creado en bodega.
 #### 2.2.8 - Proyectos
 ##### 2.2.8.1 - Proyecto interno con tareas y progreso (Video 035)
 #### 2.2.9 - Bienes
