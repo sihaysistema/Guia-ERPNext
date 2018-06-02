@@ -347,7 +347,20 @@ Hay un Standard theme, pero Hagamos uno nuevo.
 	6.1 Esto se hace mediante simple HTML, en donde puede referir imagenes, otros sitios, etc.
 7. En la sección de **Pie de Página**, usted define a nombre de quien están los derechos de Autor, y Una sección de dirección
 	7.1 La sección de dirección es un campo de Texto enriquecido. Usted puede agregar imágenes, configurar encabezados, etc.
-	7.2 Hay una tabla donde puede colocar enlaces de una manera ordenada en el **Pie de página**. 
+	7.2 Hay una tabla donde puede colocar enlaces de una manera ordenada en el **Pie de página**. Haga clic en la flecha **▼** para ver los campos que faltan en la tabla.
+		7.2.1 Etiqueta: Es el texto que aparecerá en la página
+		7.2.2 Etiqueta Madre: En caso que desee colocar una etiqueta encajada bajo otra, puede indicar el nombre de la etiqueta madre acá.
+		7.2.3 URL: El enlace a donde desea llevar al usuario, a este enlace se le antepondrá el nombre de su dominio. Es decir, el enlace solo lo llev aa páginas de su dominio.
+		7.2.4 Objetivo: Aqui usted indica en que ventana abre el enlace. Deje en blanco si abre en la misma ventana.
+			> Si desea que abra en una ventana nueva, escriba: **"_blank"**
+		7.2.5 Derecha: Esta caja de selección indica si inicia desde la derecha hasta la izquierda el orden (para la barra superior) ????
+	7.3 Esconder el enlace para subscripción del **boletín de noticias**. Esta caja de selección debe estar marcada si desea esconder la porción que le permite a los usuarios
+	subscribirse a los boletines de su sitio web.
+8. La seccion de integraciones permite especificar datos para sitios como **Google.com** y su sistema de analíticos.
+9. La sección de **Mas Información** le permite adjuntar un icono de favoritos y deshabilitar la opcion de inscripcion como usuario del sitio web
+para la sección de favoritos de su navegador.
+Este ícono también identifica su sitio al mostrar en las pestañas o titulos de su navegador.
+
 ### 2.3 Conclusión Modulo 2
 
 
