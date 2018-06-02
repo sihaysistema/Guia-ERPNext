@@ -296,15 +296,16 @@ Finalmente, crearemos una vista web.
 
 Planifique su "tema" del sitio basado en sus colores.
 
-###### 3 - Configuremos su Sitio Web
+###### 3 - Configuremos el Theme
 Configuremos el "theme".
 Hay un Standard theme, pero Hagamos uno nuevo.
-**WebSite > Setup > Website Theme**
+**Sitio Web > Ajustes > Tema del Sitio**
+*
 
 1. Agregue el nombre del tema que desea
 2. Asegurese que la caja de seleccion **Aplicar estilo** esté marcada. Esta si debe estar elegida para este ejemplo.
 3. Si es un estilo personalizado, marque la caja de **Personalizado?**. Para este ejemplo, no la elija.
-4. Elija si desea aplicar estilo de texto por medio de ERPNext marcando la caja de **Aplicar Estilos de Texto**. Para este ejemplo, no la elija.
+4. Elija si desea aplicar estilo de texto por medio de ERPNext marcando la caja de **Aplicar Estilos de Texto**.
 	4.1 Al marcar la caja vera los campos para:
 		4.1.1 Tamaño de la Fuente
 		4.1.2 Fuente de Google (Texto)
@@ -321,8 +322,34 @@ Hay un Standard theme, pero Hagamos uno nuevo.
 	5.2 Puede elejir una imagen, la cual estará sobrepuesta.
 6. En la seccion de estilo usando CSS, usted puede ingresar los elementos CSS personalizados, sustituyendo el paso 4
 7. En la seccion de JavaScript, puede ingresar el JavaScript a la medida que usted desee para la página principal.
-
+###### 4 - Configuremos Los Ajustes del Sitio Web
+1. **Sitio Web > Ajustes > Ajustes del Sitio web**
+2. En la sección de **Landing Page**
+	2.1 Indique en el campo de **Pagina Principal**, la página inicial que verá el usuario
+		2.1.1 index
+		2.1.2 login
+		2.1.3 products
+		2.1.4 blog
+		2.1.5 about
+		2.1.6 contact
+	2.2 Indique el prefijo del titulo que aparecera en las ventanas o pestañas del navegador.
+		2.2.1 - [Prefijo] - título de la página
+3. En la sección de **Tema de Sitio**, seleccione el tema que acaba de crear anteriormente
+	Esto activará el tema para poderlo ver en el sitio web. De lo contrario se mostrará el tema estándar.
+4. En la sección de **Marca**, puede subir una imagen de su marca para mostrar arriba a la izquierda
+	4.1 Alternativamente puede colocar tags de HTML para su sección de título en la **barra superior**
+		> Esto le da flexibilidad para mostrar lo que desea, desde cambiar el estilo de los enlaces,
+		> hasta mostrar elementos HTML de otro tipo. Sin embargo, los enlaces per se, y sus destinos,
+		> es mejor permitir que los controle EPRNext.
+5. En la seccion de **Barra Superior**, usted indica en una tabla el nombre del enlace y la ruta a la que enlaza en su paginaa.
+	5.1 Tambiñen puede indicar si coloca una barra de **Busqueda** al lado de los enlaces.
+6. En la sección de **Banner**, usted puede configurar lo que va *Arriba* de los enlaces, a lo que se llama la **Barra superior**
+	6.1 Esto se hace mediante simple HTML, en donde puede referir imagenes, otros sitios, etc.
+7. En la sección de **Pie de Página**, usted define a nombre de quien están los derechos de Autor, y Una sección de dirección
+	7.1 La sección de dirección es un campo de Texto enriquecido. Usted puede agregar imágenes, configurar encabezados, etc.
+	7.2 Hay una tabla donde puede colocar enlaces de una manera ordenada en el **Pie de página**. 
 ### 2.3 Conclusión Modulo 2
+
 
 En este módulo hemos aprendido lo más importante de ERPNext.
 Vimos la operativa básica del programa: hacer login, configurar su usuario, configurar sus iconos del escritorio, seleccionar su idioma, acceder al menu de configuración del programa en donde agregamos un usuario.
