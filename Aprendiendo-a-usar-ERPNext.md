@@ -249,6 +249,7 @@ de apoyo es un Atributo de Articulo o un Articulo de Factura de Venta.
 ##### 2.2.3.2 - Bodegas (Video 019)
 ##### 2.2.3.3 - Artículos o productos (Video 020)
 	La importancia de la casilla de verificación "Mantener Stock" o no!
+	El valor de la valuación es cargado cuando se valida un recibo de compra.
 #### 2.2.4 - Compras
 ##### 2.2.4.1 - Agregar un proveedor (Video 021)
 ##### 2.2.4.2 - Modificar proveedores  (Video 022)
@@ -296,11 +297,10 @@ Finalmente, crearemos una vista web.
 
 Planifique su "tema" del sitio basado en sus colores.
 
-###### 3 - Configuremos el Theme
+###### 3 - Configuremos el Tema
 Configuremos el "theme".
 Hay un Standard theme, pero Hagamos uno nuevo.
 **Sitio Web > Ajustes > Tema del Sitio**
-*
 
 1. Agregue el nombre del tema que desea
 2. Asegurese que la caja de seleccion **Aplicar estilo** esté marcada. Esta si debe estar elegida para este ejemplo.
@@ -321,9 +321,12 @@ Hay un Standard theme, pero Hagamos uno nuevo.
 	5.1 Elija el color que desea, usando el selector de colores o ingresando un valor HEX: "#FFFFFF"
 	5.2 Puede elejir una imagen, la cual estará sobrepuesta.
 6. En la seccion de estilo usando CSS, usted puede ingresar los elementos CSS personalizados, sustituyendo el paso 4
+	6.1 Recomendaciones:
+		6.1.1 Ajuste el color de la barra superior: `.navbar {background-color: #0075C9;}`
+		6.1.2 Ajuste la alineacion vertical de los enlaces: `.nav > li {margin-top: 20px;}`  (Cambie los valores de 20 a otros...)
 7. En la seccion de JavaScript, puede ingresar el JavaScript a la medida que usted desee para la página principal.
 ###### 4 - Configuremos Los Ajustes del Sitio Web
-1. **Sitio Web > Ajustes > Ajustes del Sitio web**
+1. Navegue a **Sitio Web > Ajustes > Ajustes del Sitio web**
 2. En la sección de **Landing Page**
 	2.1 Indique en el campo de **Pagina Principal**, la página inicial que verá el usuario
 		2.1.1 index
@@ -341,12 +344,12 @@ Hay un Standard theme, pero Hagamos uno nuevo.
 		> Esto le da flexibilidad para mostrar lo que desea, desde cambiar el estilo de los enlaces,
 		> hasta mostrar elementos HTML de otro tipo. Sin embargo, los enlaces per se, y sus destinos,
 		> es mejor permitir que los controle EPRNext.
-5. En la seccion de **Barra Superior**, usted indica en una tabla el nombre del enlace y la ruta a la que enlaza en su paginaa.
-	5.1 Tambiñen puede indicar si coloca una barra de **Busqueda** al lado de los enlaces.
+5. En la seccion de **Barra Superior**, usted indica en una tabla el nombre del enlace y la ruta a la que enlaza en su pagina.
+	5.1 También puede indicar si coloca una barra de **Busqueda** al lado de los enlaces.
 6. En la sección de **Banner**, usted puede configurar lo que va *Arriba* de los enlaces, a lo que se llama la **Barra superior**
 	6.1 Esto se hace mediante simple HTML, en donde puede referir imagenes, otros sitios, etc.
 7. En la sección de **Pie de Página**, usted define a nombre de quien están los derechos de Autor, y Una sección de dirección
-	7.1 La sección de dirección es un campo de Texto enriquecido. Usted puede agregar imágenes, configurar encabezados, etc.
+	7.1 La sección de dirección es un campo de Texto enriquecido pero puede optar por ingresar HTML haciendo clic en el ícono de "< / >". Usted puede agregar imágenes, configurar encabezados, etc.
 	7.2 Hay una tabla donde puede colocar enlaces de una manera ordenada en el **Pie de página**. Haga clic en la flecha **▼** para ver los campos que faltan en la tabla.
 		7.2.1 Etiqueta: Es el texto que aparecerá en la página
 		7.2.2 Etiqueta Madre: En caso que desee colocar una etiqueta encajada bajo otra, puede indicar el nombre de la etiqueta madre acá.
@@ -356,13 +359,120 @@ Hay un Standard theme, pero Hagamos uno nuevo.
 		7.2.5 Derecha: Esta caja de selección indica si inicia desde la derecha hasta la izquierda el orden (para la barra superior) ????
 	7.3 Esconder el enlace para subscripción del **boletín de noticias**. Esta caja de selección debe estar marcada si desea esconder la porción que le permite a los usuarios
 	subscribirse a los boletines de su sitio web.
-8. La seccion de integraciones permite especificar datos para sitios como **Google.com** y su sistema de analíticos.
+8. La seccion de **Integraciones** permite especificar datos para sitios como **Google.com** y su sistema de analíticos.
 9. La sección de **Mas Información** le permite adjuntar un icono de favoritos y deshabilitar la opcion de inscripcion como usuario del sitio web
-para la sección de favoritos de su navegador.
-Este ícono también identifica su sitio al mostrar en las pestañas o titulos de su navegador.
+	9.1 El **favicon** es un icono a base de una imagen de 16x16 pixelas, utilizado para la sección de favoritos de su navegador.
+		Este ícono también identifica su sitio al mostrar en las pestañas o titulos de su navegador.
+10. La sección de encabezado de **HTML y robots** le permite agregar HTML que no será visible en la página, pero que le permite
+	extender la funcionalidad de su página.  En el campo **HTML** coloque lo que va en sección < head > < / head >. En el campo de robots.txt
+	coloque el texto que deberán procesar los robots de los motóres de búsqueda.
+###### 4 - Creando una pagina principal nueva
+1. Navegue a **Sitio Web > Sitio Web > Pagina Web**
+2. En la sección de **Titulo** puede indicar el nombre de la página.
+	2.1 En **Ruta** indique la ruta del URL que se le postpone a la direccion de su dominio configurado
+	2.2 En **Presentación de Diapositivas** elija una configuración previamente realizada de **Diapositivas**.
+	2.3 La caja de **Publicado** le permite habilitar o deshabilitar rápidamente la publicación de esa página.
+	2.4 La caja de **Mostrar Titulo** muestra o esconde el título de la página web en la pestaña de la ventana ????
+3. En la sección de contenido, coloque en el campo de **Seccion Principal** el texto que desee mostrar a sus usuarios cuando llegan a esta página.
+4. En la sección de **Secuencia de Comandos**, puede ingresar una **Secuencia de Comandos** en lenguaje JavaScript.
+5. En la sección de **Estilo**, puede seleccionar insertar un estilo específico en CSS, marcando la **caja** de **Insertar Estilo**
+	5.1 Al marcar la caja de **Insertar Estilo** se habilitará un campo para seleccionar la alineación del Texto **Alinear Texto**
+	5.2 También se habilita el campo de **CSS** para colocar los estilos según sea necesario.
+6. En la sección de **Barra Lateral y Comentarios** puede marcar la caja para mostrar la barra lateral u ocultarla.
+	6.1 En el campo de **Barra Lateral**, seleccione una Barra Lateral previamente configurada.
+	6.2 También puede habilitar la opción de **Habilitar Comentarios**, e indicar la prioridad de carga.
+7. La Seccion de **Encabezado y Descripción** le permite configurar tres cosas:
+	7.1 La **Descripción** es para optimizar los motores de búsqueda. Solo texto.
+	7.2 El **Encabezado** es para HTML, opcional.
+	7.3 Las **Migas de pan** le permiten mantener el rastro de sus páginas ordenadamente.
+		Muestran la ubicación relativo a la página principal. Debe ser indicado como:
+		> [{"label":_trabajos,"route":"trabajos"}]
+
+
+
+
+
+###### 5 - Configuración de la Barra Lateral
+
+###### 6 - Configurando DocTypes para publicar su contenido en la web
+Cualquier DocType que usted desee puede ser publicado en la página web.
+Es necesario configurar developer mode para el sitio en `site_config.json`
+Para hacer esto, debemos agregarle un switch que le permite ser visto en la web.
+
+1. Usando el **DocType list** (se accede desde el **Awesome Bar** superior), abra el **DocType** deseado
+2. Existe una sección hasta abajo que se llama **Web View**
+3. Hay dos cajas de seleccion que permiten compartir en público.
+	3.1 **Tiene Vista en la Web** es una caja que le permite habilitar este DocType para vista en la web.
+		Esto solo funciona par ausuarios registrados en el portal.
+	3.2 **Permitir Vista para Invitados** es una caja selectora que le permite a un usuario no registrado,
+		ver este tipo de DocType.  Basicamente con esto usted publica este DocType en su dominio.
+4. Luego, hay que indicar la ruta o el directorio en donde se podrán ver este DocType  (La ruta debe estar definida en **Website Settings > Top Bar > Fila con la ruta y nombre**) ???
+5. Como un ultimo control detallado o específico, es importante que el DocType posea un campo que el usuario marca en cada *Instancia* del DocType individual
+	que lo publica o no. Esto es util en caso sea necesario habilitar o deshabilitar elementos individuales.
+	5.1 Nota importante:  Si es un nuevo DocType el que esta creando, obligatoriamente debe crear dos campos:
+		5.1.1 Un campo con un nombre como *Published* de tipo **Check**
+			para poderlo utilizar rápidamente para publicar ese nuevo DocType.
+		5.1.2 Un campo con la **Ruta** o el folder relativo al nombre del dominio para accesar. P. Ej. */eventos*
+			Si no hay ruta, es posible que elija el **Titulo** del DocType como ruta amigable de URL, pero es mejor especificarlo para evitar problemas y confusiones.
+6. Finalmente hay dos cosas importantes que realizar:
+	6.1 El campo de **Published** que uste desea utilizar (creado o configurado en paso 5), hay que enlazarlo con el campo de
+	**Campo de Está Publicado**
+	6.2 Definir la ruta (URL de la web, p. ej. *http://dominio.com/ruta_que_desea/*) en la que desea que aparezcan las
+	instancias individuales de este DocType.
+7. Guarde la configuración del DocType haciendo clic en **Guardar** o **CTRL/CMD + S**
+8. Esto creará una carpeta con plantillas adentro de la carpeta del módulo y doctype especificado en **erpnext**, llamado igual que el DocType que acaba de crear o que desea mostrar.
+	La ruta completa es esta (reemplace con el nombre del modulo y doctype que necesita): 
+	> /home/frappe/frappe-bench/apps/erpnext/erpnext/[nombre_del_modulo]/doctype/[nombre_del_doctype]/templates/
+	7.1 Adentro de esta carpeta habrán dos archivos HTML.
+	* Una plantilla para cada DocType: (Esta muestra las características de cada elemento DocType individual)
+	> [nombre_del_doctype].html
+	* Una página para mostrar los DocTypes como listado (tarjetas, filas, etc.) Esta muestra todos los disponibles, y enlaza a las individuales.
+	> [nombre_del_doctype]_row.html
+###### 7 - Modificando Las Plantillas rchivos html
+Cuando ya estén creadas las plantillas, se pueden modificar directamente para controlar detalladamente como se visualiza.
+TK ???? Pendiente definir lo que sucede cuando se actualiza ERPNext. Es probable que sea necesario realizar copia de respaldo?
+	> /home/frappe/frappe-bench/apps/erpnext/erpnext/[nombre_del_modulo]/doctype/[nombre_del_doctype]/templates/
+
+
+
+###### ----- Pendiente de Limpieza o asignación IGNORE ESTA SECCION ----
+When modifying the top bar in **Website Settings**, be careful about the background definition, it will block it. Instead, modify the CSS file!
+Make sure the CSS is properly formatted and names adequately typed.
+
+
+NO FUNCIONA!! en Theme > HTML Header & Robots
+La mejor manera de modificar elementos individuales HTML de su pagina web es usar el inspector
+con esto podra ver los **Elements** de la página HTML, los cuales puede modificar mediante referencias a su **clase o Class**
+de CSS.  Este CSS debe de ser colocado en el campo:
+
+`<head>` HTML
+Y declare el CSS así:
+`<style>[estilos CSS van aqui adentro.]</style>`
+Por ejemplo para modificar la barra superior del menu, en **Website Theme** , bajo **Apply Text Styles** ingrese:
+```<style>
+.navbar {background-color: #6cc04a;}
+
+.navbar .nav > li > a {
+	color: #fff;
+}
+
+.navbar 
+.nav > li {margin-top: 50px;}
+</style>
+
+```
+ 
+Para enlazar archivos para la web, adjuntelos a "public"  y luego refiera a ellos como:
+<img src="/files/image_name.png" style="height:18px">
+
+Para que los enlaces en la barra superior esten ajustados, o centrados, agregue este estilo
+
+Puede compartir el DocType completo en el sitio web, indicando en su configuración:  Has Web View como "marcar".
+Tambien indique "Allow Guest To View" para que pueda verlo.
+Coloque la ruta  **Route** para
+###### ----- Pendiente de Limpieza o asignación IGNORE ESTA SECCION ----
 
 ### 2.3 Conclusión Modulo 2
-
 
 En este módulo hemos aprendido lo más importante de ERPNext.
 Vimos la operativa básica del programa: hacer login, configurar su usuario, configurar sus iconos del escritorio, seleccionar su idioma, acceder al menu de configuración del programa en donde agregamos un usuario.
@@ -523,6 +633,18 @@ para que se genere automáticamente la factura de compra cada mes, en el día qu
 ##### 3.2.5.6 - Conjunto / Paquete de productos (Video 001) - Revisado
 ##### 3.2.5.7 - Terminos y condiciones Ventas (Video 081)
 ##### 3.2.5.8 - Venta mediante POS (Video 082)
+##### 3.2.5.9 - Regla de Precios NO VIDEO
+1. Puedes establecer promociones en las cuales ofrece descuento en la compra de x cantidad de articulos
+2. Para cliente X, el precio de venta debe ser actualizado por y cantidad
+3. Los productos categorizados bajo el Grupo de Articulos especificado tienen el mismo precio de ocmpra o venta.
+4. Los clientes que pertenecen a un grupo especifico de clientes obtienen precio de venta x o un descuento del y %
+5. Los proveedores bajo cierta categoría deben de tener un precio x.
+6. Puedes agregar margen de venta sobre lista de compras
+	6.1 Haga un listado de precios de compra y asegurese de ingresar un precio de compra en ese listado
+	6.2 Haga una regla de precio en la cual indique el codigo del articulo de compra. Indique que es una regla para la venta.
+	6.3 Agregue el margen porcentual que usted desea sobre el producto de compra
+	6.4 Haga su factura de venta y verá el margen aplicado.
+Si desea alterar precios masivamente, se sugiere utilizar una hoja de excel e ingresarlos todos nuevamente.
 #### 3.2.6 - CRM (Manejo de Recursos: Clientes)
 ##### 3.2.6.1 - Categoría de Cliente (Video 083)
 ##### 3.2.6.2 - Comunicaciones (Video 084)
@@ -564,8 +686,6 @@ Indique los detalles específicos de esta tarea textualmente
 Si esta tarea depende de otra tarea, puede indicarlo aquí
 
 Puede asignar o compartir la tarea con sus colegas
-
-
 
 ##### 3.2.8.4 - Registro de Horas (Video 092)  
 Para registrar el tiempo usado en una tarea, creamos un registro de horas
