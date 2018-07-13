@@ -737,59 +737,20 @@ Que veremos aquí
 ### 4.1 Operación Avanzada
 #### 4.1.3 - Ajustes específicos por Dominio
 ##### 4.1.3.1 - Modulo Agricultura (Video 113)
-##### 4.1.3.2 - Modulo de Hospitalidad (Video 114) pendiente
 
-##### 4.1.3.3 - Modulo de Salud (Video 115) 
+##### 4.1.3.2 - Modulo de Hospitalidad (Video 114)
 
+##### 4.1.3.3 - Modulo de Salud (Video 115)
+Presentacion del modulo de salud, enlace a modulo 12 con detalles
 ##### 4.1.3.4 - Modulo de Educacion (Video 116)
-###### 4.1.3.4.1 - Introduccion - ERPNext para escuelas - (Video 119)
-https://youtu.be/f6foQOyGzdA
-###### 4.1.3.4.2 - Aplicaciones de estudiantes - (Video 120)
-https://youtu.be/l8PUACusN3E
-###### 4.1.3.4.3 - Administracion de estudiantes - (Video 121)
-https://youtu.be/nIUsbl0rEE0
-###### 4.1.3.4.4 - Programas y Cursos - (Video 122)
-https://youtu.be/1ueE4seFTp8
-###### 4.1.3.4.5 - Inscripcion a Programas - (Video 123)
-https://youtu.be/5nxWYBRHY_o
-###### 4.1.3.4.6 - Instructores - (Video 124)
-https://youtu.be/rVqQYS1_02k
-###### 4.1.3.4.7 - Grupos de Estudiantes (Secciones) - (Video 125)
-Estudiantes que estan inscritos en un curso
-https://youtu.be/5K_smeeE1Q4
-###### 4.1.3.4.8 - Agendar cursos - (Video 126) 
-Se agenda para cada instructor y alumnos
-https://youtu.be/iy-DBV9jI-A
-###### 4.1.3.4.9 - Asistencia - (Video 127)
-https://youtu.be/j9pgkPuyiaI
-###### 4.1.3.4.10 - Solicitud de Ausencia - (Video 128)
-https://youtu.be/NwwH5t-NKBE
-###### 4.1.3.4.11 - Criterios de Evaluación y Calificaciones - (Video 129)
-https://youtu.be/t8ZDDq4qtIk
-###### 4.1.3.4.12 - Grupo de Evaluaciónes - (Video 130)
-Un grupo de evaluacion, una jerarquia de evaluaciones realizadas en un año académico
-https://youtu.be/I1T7Z2JbcP4
-###### 4.1.3.4.13 - Plan de Evaluaciones - (Video 131)
-Agenda una evaluacion para un grupo especifico de alumnos en un curso especifico
-https://youtu.be/Q9CzzoYb_Js
-###### 4.1.3.4.14 - Resultado de Evaluaciones - (Video 132)
-El resultado de evaluaciones registra la calificacion del alumno en una evaluacion especifica. La herramienta de resultado de evaluaciones, le permite crear varios resultados de alumnos al mismo tiempo, basado en un plan de evaluacion.)
-https://youtu.be/U8ZRB8CM-UM
-###### 4.1.3.4.15 - Estructura de Tarifas - (Video 133)
-Categoria de tarifas y cuentas de tarifas (categoria de tarifas que se combina para calcular el total a cobrar por alumno. (Mensualidad, colegiatura, etc.)
-https://youtu.be/_ZkvyVnWgYk
-###### 4.1.3.4.16 - Registro de Tarifas Masivo - (Video 134)
-Registra multiples tarifas para grupos de alumnos al mismo tiempo.
-###### 4.1.3.4.17 - Tarifas y Pagos - (Video 135)
-Como se crea una tarifa por alumno.  Y como registrar el pago recibido.
-https://youtu.be/RfWOyjgxIZM
-##### 4.1.3.6 - Modulo de Servicios (Video 117)
+Presentacion del modulo de educacion, enlace a modulo 10 con detalles
+##### 4.1.3.6 - Modulo de Servicios (Video 117) 
 Preparar algun video de flujo de trabajo de servicios o mejores practicas.
 
 ##### 4.1.3.7 - Modulo de Manufactura (Video 118)
 Preparar algun video de flujo de trabajo de manufactura o mejores practicas.
 
-##### 4.1.3.8 - Modulo de Conexión para Shopify NO VIDEO [Seminario Web Shopify/ERPNext](https://youtu.be/sd2p-0jATzc) 
+##### 4.1.3.8 - Modulo de Conexión para Shopify (Video 148) [Seminario Web Shopify/ERPNext](https://youtu.be/sd2p-0jATzc) 
 Con esta integración a ERPNext:
 * Cuando agrega un **Producto** o **Cliente** a una cuenta de Shopify, se sincroniza con ERPNext automaticamente.
 * Si agrega un nuevo **Producto** o **Cliente** en su cuenta de ERPNext, se sincronicará automaticamente con Shopify.
@@ -924,72 +885,72 @@ Como se procesa un retorno de un cliente?:
 1. Con reembolso?
 2. Sin reembolso?
 
-#### 4.1.2 - Copias de respaldo de datos (Video 119)
-#### 4.1.3 - Personalización de formularios (Video 120)
+#### 4.1.2 - Copias de respaldo de datos (Video 149)
+#### 4.1.3 - Personalización de formularios (Video 150)
 	Agregando nuevos campos a doctypes principales (Customize)
-#### 4.1.4 - Campos personalizados (Video 121)
+#### 4.1.4 - Campos personalizados (Video 151)
 		Nombre de campos anteponiendo nombre de su empresa (buena practica para evitar errores de actualizacion)
 		Este sirve para doctypes hijos solamente!
-#### 4.1.5 - Codigo fuente personalizado (Video 122)
-#### 4.1.6 - Notificaciones de correo (Video 123)
-#### 4.1.7 - Formatos de impresión (Video 124)
+#### 4.1.5 - Codigo fuente personalizado (Video 152)
+#### 4.1.6 - Notificaciones de correo (Video 153)
+#### 4.1.7 - Formatos de impresión (Video 154)
 	Jinja Basico para plantillas de impresion
-#### 4.1.8 - Estilo de impresión (Video 125)
-#### 4.1.9 - Constructor de formato de impresión (Video 126)
-### 4.1.10 - Formato de dirección (Video 127)
+#### 4.1.8 - Estilo de impresión (Video 155)
+#### 4.1.9 - Constructor de formato de impresión (Video 156)
+### 4.1.10 - Formato de dirección (Video 157)
 
 ### 4.2 Modulos del programa
 #### 4.2.1 - Cuentas Contables
-##### 4.2.1.1 - Balanza de comprobacion (Video 128)
-##### 4.2.1.2 - Solicitud de pago (Video 129)
-##### 4.2.1.3 - Cuentas por cobrar (Video 130)
-##### 4.2.1.4 - Cuentas por pagar (Video 131)
-##### 4.2.1.5 - Estados de conciliacion bancarios (Video 132)
-##### 4.2.1.6 - Resumen de cambios bancarios (Video 133)
-##### 4.2.1.7 - Garantia bancaria (Video 134)
-##### 4.2.1.8 - Regla fiscal (Video 135)
-##### 4.2.1.9 - Presupuesto (Video 136)
-##### 4.2.1.10 - Variacion de presupuesto (Video 137)
-##### 4.2.1.11 - Distribucion mensual  para Presupuesto(Video 138)
-##### 4.2.1.12 - Cierre de periodo (Video 139)
+##### 4.2.1.1 - Balanza de comprobacion (Video 158)
+##### 4.2.1.2 - Solicitud de pago (Video 159)
+##### 4.2.1.3 - Cuentas por cobrar (Video 160)
+##### 4.2.1.4 - Cuentas por pagar (Video 161)
+##### 4.2.1.5 - Estados de conciliacion bancarios (Video 162)
+##### 4.2.1.6 - Resumen de cambios bancarios (Video 163)
+##### 4.2.1.7 - Garantia bancaria (Video 164)
+##### 4.2.1.8 - Regla fiscal (Video 165)
+##### 4.2.1.9 - Presupuesto (Video 166)
+##### 4.2.1.10 - Variacion de presupuesto (Video 167)
+##### 4.2.1.11 - Distribucion mensual  para Presupuesto(Video 168)
+##### 4.2.1.12 - Cierre de periodo (Video 169)
 #### 4.2.2 - Recursos Humanos
-##### 4.2.2.1 - Asistencia (Video 140)
-##### 4.2.2.2 - Herramienta de Asistencia de los empleados (Video 141)
-##### 4.2.2.3 - Subir asistencia (Video 142)
-##### 4.2.2.4 - Solicitud de licencia (para ausentarse) (Video 143)
-##### 4.2.2.5 - Tipo de licencia (para ausentarse) (Video 144)
-##### 4.2.2.6 - Asignacion de vacaciones (Video 145)
-##### 4.2.2.7 - Herramienta de asignación de vacaciones (Video 146)
-##### 4.2.2.8 - Lista de bloqueo (Video 147)
+##### 4.2.2.1 - Asistencia (Video 170)
+##### 4.2.2.2 - Herramienta de Asistencia de los empleados (Video 171)
+##### 4.2.2.3 - Subir asistencia (Video 172)
+##### 4.2.2.4 - Solicitud de licencia (para ausentarse) (Video 173)
+##### 4.2.2.5 - Tipo de licencia (para ausentarse) (Video 174)
+##### 4.2.2.6 - Asignacion de vacaciones (Video 175)
+##### 4.2.2.7 - Herramienta de asignación de vacaciones (Video 176)
+##### 4.2.2.8 - Lista de bloqueo (Video 177)
 #### 4.2.3 - Almacén o Inventario
-##### 4.2.3.1 - Atributos de producto (Video 148)
-##### 4.2.3.2 - Variantes de producto (Video 149)
-##### 4.2.3.3 - Conciliacion de inventario (Video 150)
-##### 4.2.3.4 -  Lista de embalaje (empaque) (Video 151)
-##### 4.2.3.5 - Numero de serie (Video 152)
-##### 4.2.3.6 - Numero de lote (Video 153)
+##### 4.2.3.1 - Atributos de producto (Video 178)
+##### 4.2.3.2 - Variantes de producto (Video 179)
+##### 4.2.3.3 - Conciliacion de inventario (Video 180)
+##### 4.2.3.4 -  Lista de embalaje (empaque) (Video 181)
+##### 4.2.3.5 - Numero de serie (Video 182)
+##### 4.2.3.6 - Numero de lote (Video 183)
 #### 4.2.4 - Compras
-##### 4.2.4.1 - Invitando a proveedores al portal ERPNext de su empresa (Video 154)
+##### 4.2.4.1 - Invitando a proveedores al portal ERPNext de su empresa (Video 184)
 Al crear una solicitud de cotización, puede invitar al proveedor a su portal para que realice una oferta
 sobre la solicitud.
 
-##### 4.2.4.2 - Ingreso de cotizaciones de proveedor al portal ERPNext de su empresa (Video 155)
+##### 4.2.4.2 - Ingreso de cotizaciones de proveedor al portal ERPNext de su empresa (Video 185)
 #### 4.2.5 - Ventas
-##### 4.2.5.1 - Regla de envío (Video 156)
-##### 4.2.5.2 - Analisis de ventas (Video 157)
-##### 4.2.5.3 - Compras y lealtad de clientes (Video 158)
+##### 4.2.5.1 - Regla de envío (Video 186)
+##### 4.2.5.2 - Analisis de ventas (Video 187)
+##### 4.2.5.3 - Compras y lealtad de clientes (Video 188)
 #### 4.2.6 - CRM (Manejo de Recursos: Clientes)
-###### 4.2.6.1 - Registro SMS (Video 159)
-###### 4.2.6.2 - Ajustes de SMS (Video 160)
+###### 4.2.6.1 - Registro SMS (Video 189)
+###### 4.2.6.2 - Ajustes de SMS (Video 190)
 #### 4.2.7 - Manufactura
-##### 4.2.7.1 - Ordenes de producción abiertas (Video 161)
-##### 4.2.7.2 - Ordenes de produccion en progreso (Video 162)
-##### 4.2.7.3 - Productos entregados desde ordenes de producción (Video 163)
-##### 4.2.7.4 - Ordenes de producción (OP) completadas (Video 164)
-##### 4.2.7.5 - Analisis de producción (Video 165)
+##### 4.2.7.1 - Ordenes de producción abiertas (Video 191)
+##### 4.2.7.2 - Ordenes de produccion en progreso (Video 192)
+##### 4.2.7.3 - Productos entregados desde ordenes de producción (Video 193)
+##### 4.2.7.4 - Ordenes de producción (OP) completadas (Video 194)
+##### 4.2.7.5 - Analisis de producción (Video 195)
 #### 4.2.8 - Proyectos
-##### 4.2.8.1 - Resumen diario de horas (Video 166)
-##### 4.2.8.2 - Seguimiento preciso del stock (Video 167)
+##### 4.2.8.1 - Resumen diario de horas (Video 196)
+##### 4.2.8.2 - Seguimiento preciso del stock (Video 197)
 ##### 4.2.8.3 - Informe o Gráfico de Gantt
 Este informe muestra las tareas sobrepuestas contra un calendario
 para visualizar el tiempo requerido y para completar la tarea.
@@ -999,121 +960,121 @@ Se puede actualizar el progreso de la tarea (%) desde el gráfico de Gantt
 La dependencia de una tarea sobre la otra se vera reflejada con una flecha
 
 #### 4.2.9 - Bienes o Activos 
-##### 4.2.9.1 - Movimiento de activo (Video 168)
-##### 4.2.9.2 - Depreciaciones de Activos y Saldos (Video 169)
+##### 4.2.9.1 - Movimiento de activo (Video 198)
+##### 4.2.9.2 - Depreciaciones de Activos y Saldos (Video 199)
 ### 4.3 Conclusion Modulo 4
 Que vimos aquí
 
 ## Modulo 5: Convirtiendose en experto
 Qué veremos aquí
 ### 5.1 Operación nivel experto
-#### 5.1.1 Instalador de aplicaciones (Video 170)
-#### 5.1.2 Alertas de correo electronico (Video 171)
-#### 5.1.3 Respuesta estandarizada (Video 172)
-#### 5.1.4 Disparador de retroalimentación (Video 173)
-#### 5.1.5 Resumen por correo (Video 174)
-#### 5.1.6 Cuenta de pago vía Portal (Cuenta pasarela de pago) (Video 175)
-#### 5.1.7 - Plantilla de impresión de cheques (Video 176)
-#### 5.1.8 - Programando plantillas de factura avanzadas (Video 177)
+#### 5.1.1 Instalador de aplicaciones (Video 200)
+#### 5.1.2 Alertas de correo electronico (Video 201)
+#### 5.1.3 Respuesta estandarizada (Video 202)
+#### 5.1.4 Disparador de retroalimentación (Video 203)
+#### 5.1.5 Resumen por correo (Video 204)
+#### 5.1.6 Cuenta de pago vía Portal (Cuenta pasarela de pago) (Video 205)
+#### 5.1.7 - Plantilla de impresión de cheques (Video 206)
+#### 5.1.8 - Programando plantillas de factura avanzadas (Video 207)
 ### 5.2 Modulos del programa
 #### 5.2.1 - Cuentas Contables
-##### 5.2.1.1 - Beneficio bruto (Gross profit) (Video 178)
-##### 5.2.1.2 - Tendencias de compras (por factura) (Video 179)
-##### 5.2.1.3 - Tendencias de ventas (por factura) (Video 180)
-##### 5.2.1.4 - Balance de terceros (Video 181)
-##### 5.2.1.5 - Periodos de pago según facturas (payment period based on invoice date) (Video 182)
-##### 5.2.1.6 - Comisiones de socio de ventas (Sales partner comission) (Video 183)
-##### 5.2.1.7 - Detalle de ventas (Video 184)
-##### 5.2.1.8 - Detalle de compras (Video 185)
-##### 5.2.1.9 - Saldo de clientes (Video 186)
-##### 5.2.1.10 - Saldo de proveedores - NO SE HA ASIGNADO VIDEO
-##### 5.2.1.11 - Resumen de pago de ventas (Video 187)
-##### 5.2.1.12 - Creando y Guardando Informes personalizados (Video 188)
+##### 5.2.1.1 - Beneficio bruto (Gross profit) (Video 208)
+##### 5.2.1.2 - Tendencias de compras (por factura) (Video 209)
+##### 5.2.1.3 - Tendencias de ventas (por factura) (Video 210)
+##### 5.2.1.4 - Balance de terceros (Video 211)
+##### 5.2.1.5 - Periodos de pago según facturas (payment period based on invoice date) (Video 212)
+##### 5.2.1.6 - Comisiones de socio de ventas (Sales partner comission) (Video 213)
+##### 5.2.1.7 - Detalle de ventas (Video 214)
+##### 5.2.1.8 - Detalle de compras (Video 215)
+##### 5.2.1.9 - Saldo de clientes (Video 216)
+##### 5.2.1.10 - Saldo de proveedores - (Video 217)
+##### 5.2.1.11 - Resumen de pago de ventas (Video 218)
+##### 5.2.1.12 - Creando y Guardando Informes personalizados (Video 219)
 #### 5.2.2 - Recursos Humanos
-##### 5.2.2.1 - Evaluacion (Video 189)
-##### 5.2.2.2 - Plantilla de evaluacion (Video 190)
-##### 5.2.2.3 - Actualizaciones equipo (Video 191)
-##### 5.2.2.4 - Programa de entrenamiento (Video 192)
-##### 5.2.2.5 - Evento de capacitación (Video 193)
-##### 5.2.2.6 - Resultado del Entrenamiento (Video 194)
-##### 5.2.2.7 - Comentarios del Entrenamiento (Video 195)
-##### 5.2.2.8 - Tipo de préstamo (Video 196)
-##### 5.2.2.9 - Solicitud de prestamo del empleado (Video 197)
-##### 5.2.2.10 - Prestamo de empleado (Video 198)
-##### 5.2.2.11 - Vehiculo
-##### 5.2.2.12 - Bitacora de Vehiculo 
+##### 5.2.2.1 - Evaluacion (Video 220)
+##### 5.2.2.2 - Plantilla de evaluacion (Video 221)
+##### 5.2.2.3 - Actualizaciones equipo (Video 222)
+##### 5.2.2.4 - Programa de entrenamiento (Video 223)
+##### 5.2.2.5 - Evento de capacitación (Video 224)
+##### 5.2.2.6 - Resultado del Entrenamiento (Video 225)
+##### 5.2.2.7 - Comentarios del Entrenamiento (Video 226)
+##### 5.2.2.8 - Tipo de préstamo (Video 227)
+##### 5.2.2.9 - Solicitud de prestamo del empleado (Video 228)
+##### 5.2.2.10 - Prestamo de empleado (Video 229)
+##### 5.2.2.11 - Vehiculo (Video 230)
+##### 5.2.2.12 - Bitacora de Vehiculo (Video 231) 
 ##### 5.2.2.13 - Informes 
-###### 5.2.2.13.1 - Cumpleaños del empleado (Video 199)
-###### 5.2.2.13.2 - Balance de ausencias de empleado (Video 200)
-###### 5.2.2.13.3 - Empleados que trabajan en un dia festivo (Video 201)
-###### 5.2.2.13.4 - Informacion del empleado (Video 202)
-###### 5.2.2.13.5 - Registro de salario (Video 203)
-###### 5.2.2.13.6 - Hoja de asistencia mensual (Video 204)
-###### 5.2.2.13.7 - Gastos del vehículo (Video 205)
+###### 5.2.2.13.1 - Cumpleaños del empleado (Video 232)
+###### 5.2.2.13.2 - Balance de ausencias de empleado (Video 233)
+###### 5.2.2.13.3 - Empleados que trabajan en un dia festivo (Video 234)
+###### 5.2.2.13.4 - Informacion del empleado (Video 235)
+###### 5.2.2.13.5 - Registro de salario (Video 236)
+###### 5.2.2.13.6 - Hoja de asistencia mensual (Video 237)
+###### 5.2.2.13.7 - Gastos del vehículo (Video 238)
 #### 5.2.3 - Almacén o Inventario
-##### 5.2.3.1 - Viaje de entrega (Video 206)
-##### 5.2.3.2 - Inspección de calidad (Video 207)
-##### 5.2.3.3 - Comprobante de costos de destino estimados (Video 208)
-##### 5.2.3.4 - Nota de instalación (Video 210)
-##### 5.2.3.5 - Vencimiento de Contrato de numero de serie
-##### 5.2.3.6 - Estatus de Número de serie
-##### 5.2.3.7 - Vencimiento de Garantía de Numero de Serie
-##### 5.2.3.8 -  Informes de Stock o Inventario
-###### 5.2.3.8.1 - Mayor de inventarios (Video 211)
-###### 5.2.3.8.2 - Balance de inventarios (Video 212)
-###### 5.2.3.8.3 - Cantidad de inventario proyectado (Video 213)
-###### 5.2.3.8.4 - Resumen de existencia (Video 214)
-###### 5.2.3.8.5 - Antigüedad de existencias (Video 215)
-###### 5.2.3.8.5 - Inventario por precios de producto (Video 216)
+##### 5.2.3.1 - Viaje de entrega (Video 239)
+##### 5.2.3.2 - Inspección de calidad (Video 240)
+##### 5.2.3.3 - Comprobante de costos de destino estimados (Video 241)
+##### 5.2.3.4 - Nota de instalación (Video 242)
+##### 5.2.3.5 - Vencimiento de Contrato de numero de serie (Video 243)
+##### 5.2.3.6 - Estatus de Número de serie (Video 244)
+##### 5.2.3.7 - Vencimiento de Garantía de Numero de Serie (Video 245)
+##### 5.2.3.8 -  Informes de Stock o Inventario 
+###### 5.2.3.8.1 - Mayor de inventarios (Video 246)
+###### 5.2.3.8.2 - Balance de inventarios (Video 247)
+###### 5.2.3.8.3 - Cantidad de inventario proyectado (Video 248)
+###### 5.2.3.8.4 - Resumen de existencia (Video 249)
+###### 5.2.3.8.5 - Antigüedad de existencias (Video 250)
+###### 5.2.3.8.5 - Inventario por precios de producto (Video 251)
 ##### 5.2.3.9 -  Informes adicionales
-###### 5.2.3.9.1 - Ordenes pendientes de entrega (Video 217)
-###### 5.2.3.9.2 - Productos por recibir desde orden de compra (Video 218)
-###### 5.2.3.9.3 - Reporte de productos con stock bajo (escasez) (Video 219)
-###### 5.2.3.9.4 - Articulos solicitados para ser transferidos (Video 220)
-###### 5.2.3.9.5 - Historial de saldo por lotes (Video 221)
-###### 5.2.3.9.6 - Estado de caducidad de lote de productos (Video 222)
-###### 5.2.3.9.7 - Precios de los productos (Video 223)
-###### 5.2.3.9.8 - Nivel recomendado de reabastecimiento de producto (Video 224)
-###### 5.2.3.9.9 - Detalles de la variante del articulo (Video 225)
+###### 5.2.3.9.1 - Ordenes pendientes de entrega (Video 252)
+###### 5.2.3.9.2 - Productos por recibir desde orden de compra (Video 253)
+###### 5.2.3.9.3 - Reporte de productos con stock bajo (escasez) (Video 254)
+###### 5.2.3.9.4 - Articulos solicitados para ser transferidos (Video 255)
+###### 5.2.3.9.5 - Historial de saldo por lotes (Video 256)
+###### 5.2.3.9.6 - Estado de caducidad de lote de productos (Video 257)
+###### 5.2.3.9.7 - Precios de los productos (Video 258)
+###### 5.2.3.9.8 - Nivel recomendado de reabastecimiento de producto (Video 259)
+###### 5.2.3.9.9 - Detalles de la variante del articulo (Video 260)
 #### 5.2.4 - Compras
-##### 5.2.4.1 - Productos Para ser Solicitados (Video 226)
-##### 5.2.5.2 - Requisiciones pendientes para ser ordenadas (Video 227)
-##### 5.2.5.3 - Solicitudes de material para los que no hay presupuestos de proveedor (Video 227)
-##### 5.2.5.4 - Historial de compras (Video 228)
-##### 5.2.5.5 - Direcciones y contactos de proveedores (Video 229)
+##### 5.2.4.1 - Productos Para ser Solicitados (Video 261)
+##### 5.2.5.2 - Requisiciones pendientes para ser ordenadas (Video 262)
+##### 5.2.5.3 - Solicitudes de material para los que no hay presupuestos de proveedor (Video 263)
+##### 5.2.5.4 - Historial de compras (Video 264)
+##### 5.2.5.5 - Direcciones y contactos de proveedores (Video 265)
 #### 5.2.5 - Ventas
-##### 5.2.5.1 - Detalle de iniciativas (Video 230)
-##### 5.2.5.2 - Direcciones de clientes y contactos (Video 231)
-##### 5.2.5.3 - Ordenes pendientes de entrega (Video 232)
-##### 5.2.5.4 - Resumen de transacciones por vendedor (Video 233)
-##### 5.2.5.5 - Detalle de las Ventas (Video 234)
-##### 5.2.5.6 - Buscar lista de materiales (LdM) (Video 235)
-##### 5.2.5.7 - Clientes inactivos (Video 236)
-##### 5.2.5.8 - Inventario Disponible de Artículos de Embalaje (Video 237)
-##### 5.2.5.9 - Articulos pendientes en orden de venta para crear solicitud de compra (Video 238)
-##### 5.2.5.10 - Saldo de clientes (Video 239)
-##### 5.2.5.11 - Informes personalizados (Video 240)
+##### 5.2.5.1 - Detalle de iniciativas (Video 266)
+##### 5.2.5.2 - Direcciones de clientes y contactos (Video 267)
+##### 5.2.5.3 - Ordenes pendientes de entrega (Video 268)
+##### 5.2.5.4 - Resumen de transacciones por vendedor (Video 269)
+##### 5.2.5.5 - Detalle de las Ventas (Video 270)
+##### 5.2.5.6 - Buscar lista de materiales (LdM) (Video 271)
+##### 5.2.5.7 - Clientes inactivos (Video 272)
+##### 5.2.5.8 - Inventario Disponible de Artículos de Embalaje (Video 273)
+##### 5.2.5.9 - Articulos pendientes en orden de venta para crear solicitud de compra (Video 274)
+##### 5.2.5.10 - Saldo de clientes (Video 275)
+##### 5.2.5.11 - Informes personalizados (Video 276)
 #### 5.2.6 - CRM (Manejo de Recursos: Clientes)
-##### 5.2.6.1 - Detalle de iniciativas (REPETIDO EN VENTAS) (Video 241)
-##### 5.2.6.2 - "Embudo" de ventas (Video 242)
-##### 5.2.6.3 - Prospectos comprometidos pero no convertidos (Video 243)
-##### 5.2.6.4 - Minutos hasta la primera respuesta para Oportunidades (Video 244)
-##### 5.2.6.5 - Clientes Inactivos (repetido en ventas) (Video 245)
-##### 5.2.6.6 - Eficiencia de la campaña (Video 246)
-##### 5.2.6.7 - Eficiencia del propietario de la iniciativa (Video 247)
+##### 5.2.6.1 - Detalle de iniciativas (REPETIDO EN VENTAS) (Video 277)
+##### 5.2.6.2 - "Embudo" de ventas (Video 278)
+##### 5.2.6.3 - Prospectos comprometidos pero no convertidos (Video 279)
+##### 5.2.6.4 - Minutos hasta la primera respuesta para Oportunidades (Video 280)
+##### 5.2.6.5 - Clientes Inactivos (repetido en ventas) (Video 281)
+##### 5.2.6.6 - Eficiencia de la campaña (Video 282)
+##### 5.2.6.7 - Eficiencia del propietario de la iniciativa (Video 283)
 #### 5.2.9 - Bienes o Activos
-##### 5.2.9.1 - Movimiento de activo (Video 248)
-##### 5.2.9.2 - Libro de Depreciacion de Activos NO SE HA ASIGNADO VIDEO
+##### 5.2.9.1 - Movimiento de activo (Video 284)
+##### 5.2.9.2 - Libro de Depreciacion de Activos (Video 285)
 #### 5.2.10 - Mantenimiento del programa
-##### 5.2.10.1 - Accesando linea de comandos - linux (Video 250)
-##### 5.2.10.2 - Terminal iTerm (Video 251)
-##### 5.2.10.3 - Haciendo snapshots (VirtualBox, u otras opciones) (Video 252)
-##### 5.2.10.4 - Instalación en servidor remoto NO HAY VIDEO ASIGNADO
-##### 5.2.10.5 - Configurando SSL con Let's Encrypt NO HAY VIDEO ASIGNADO
-##### 5.2.10.5 - El folder de ERPNext: Frappe-Bench (Video 253)
-##### 5.2.10.6 - Actualizando la Aplicación NO HAY VIDEO ASIGNADO
-##### 5.2.10.7 - GitHub y Versiones de control (Video 256)
-##### 5.2.10.8 - Modo desarrollador y consola desarrollo del navegador (Video 257)
+##### 5.2.10.1 - Accesando linea de comandos - linux (Video 286)
+##### 5.2.10.2 - Terminal iTerm (Video 287)
+##### 5.2.10.3 - Haciendo snapshots (VirtualBox, u otras opciones) (Video 288)
+##### 5.2.10.4 - Instalación en servidor remoto (Video 289)
+##### 5.2.10.5 - Configurando SSL con Let's Encrypt (Video 290)
+##### 5.2.10.5 - El folder de ERPNext: Frappe-Bench (Video 291)
+##### 5.2.10.6 - Actualizando la Aplicación (Video 292)
+##### 5.2.10.7 - GitHub y Versiones de control (Video 293)
+##### 5.2.10.8 - Modo desarrollador y consola desarrollo del navegador (Video 294)
 
 ### 5.3 Conclusión Modulo 5
 
@@ -1144,6 +1105,48 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 
 ## Modulo 10: Educación
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/education)
+## 10.1 - Introduccion - ERPNext para escuelas - (Video 119)
+https://youtu.be/f6foQOyGzdA
+## 10.2 - Aplicaciones de estudiantes - (Video 120)
+https://youtu.be/l8PUACusN3E
+## 10.3 - Administracion de estudiantes - (Video 121)
+https://youtu.be/nIUsbl0rEE0
+## 10.4 - Programas y Cursos - (Video 122)
+https://youtu.be/1ueE4seFTp8
+## 10.5 - Inscripcion a Programas - (Video 123)
+https://youtu.be/5nxWYBRHY_o
+## 10.6 - Instructores - (Video 124)
+https://youtu.be/rVqQYS1_02k
+## 10.7 - Grupos de Estudiantes (Secciones) - (Video 125)
+Estudiantes que estan inscritos en un curso
+https://youtu.be/5K_smeeE1Q4
+## 10.8 - Agendar cursos - (Video 126) 
+Se agenda para cada instructor y alumnos
+https://youtu.be/iy-DBV9jI-A
+## 10.9 - Asistencia - (Video 127)
+https://youtu.be/j9pgkPuyiaI
+## 10.10 - Solicitud de Ausencia - (Video 128)
+https://youtu.be/NwwH5t-NKBE
+## 10.11 - Criterios de Evaluación y Calificaciones - (Video 129)
+https://youtu.be/t8ZDDq4qtIk
+## 10.12 - Grupo de Evaluaciónes - (Video 130)
+Un grupo de evaluacion, una jerarquia de evaluaciones realizadas en un año académico
+https://youtu.be/I1T7Z2JbcP4
+## 10.13 - Plan de Evaluaciones - (Video 131)
+Agenda una evaluacion para un grupo especifico de alumnos en un curso especifico
+https://youtu.be/Q9CzzoYb_Js
+## 10.14 - Resultado de Evaluaciones - (Video 132)
+El resultado de evaluaciones registra la calificacion del alumno en una evaluacion especifica. La herramienta de resultado de evaluaciones, le permite crear varios resultados de alumnos al mismo tiempo, basado en un plan de evaluacion.)
+https://youtu.be/U8ZRB8CM-UM
+## 10.15 - Estructura de Tarifas - (Video 133)
+Categoria de tarifas y cuentas de tarifas (categoria de tarifas que se combina para calcular el total a cobrar por alumno. (Mensualidad, colegiatura, etc.)
+https://youtu.be/_ZkvyVnWgYk
+## 10.16 - Registro de Tarifas Masivo - (Video 134)
+Registra multiples tarifas para grupos de alumnos al mismo tiempo.
+## 10.17 - Tarifas y Pagos - (Video 135)
+Como se crea una tarifa por alumno.  Y como registrar el pago recibido.
+https://youtu.be/RfWOyjgxIZM
+
 
 ## Modulo 11: Agricultura
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
@@ -1249,18 +1252,18 @@ agregaremos una o dos **Parcelas** como hijos o nodos, pertenecientes a la madre
 		4.3.1 Haga clic en Caja de Selección "Es Grupo": **Cheque** o **SI**
 		 
 ## Modulo 12: Salud
-### 2.1 - Configuración
-### 2.2 - Paciente
-### 2.3 - Cita de paciente
-### 2.4 - Signos vitales
-### 2.5 - Consulta
-### 2.6 - Registro Médico del paciente
-### 2.7 - Toma de muestras
-### 2.8 - Prueba de laboratorio
-### 2.9 - Facturacion
-### 2.10 - Doctor
-### 2.11 - Horario del doctor
-### 2.12 - Estándares Legales Médicos
+### 12.1 - Configuración (Video 136)
+### 12.2 - Paciente (Video 137)
+### 12.3 - Cita de paciente (Video 138)
+### 12.4 - Signos vitales (Video 139)
+### 12.5 - Consulta (Video 140)
+### 12.6 - Registro Médico del paciente (Video 141)
+### 12.7 - Toma de muestras (Video 142)
+### 12.8 - Prueba de laboratorio (Video 143)
+### 12.9 - Facturacion (Video 144)
+### 12.10 - Doctor (Video 145)
+### 12.11 - Horario del doctor (Video 146)
+### 12.12 - Estándares Legales Médicos (Video 147)
 
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/healthcare)
 
