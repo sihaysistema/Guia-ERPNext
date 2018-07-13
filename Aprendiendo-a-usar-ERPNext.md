@@ -428,12 +428,22 @@ Para hacer esto, debemos agregarle un switch que le permite ser visto en la web.
 	> [nombre_del_doctype].html
 	* Una página para mostrar los DocTypes como listado (tarjetas, filas, etc.) Esta muestra todos los disponibles, y enlaza a las individuales.
 	> [nombre_del_doctype]_row.html
-###### 7 - Modificando Las Plantillas rchivos html
+###### 7 - Modificando Las Plantillas Archivos html
 Cuando ya estén creadas las plantillas, se pueden modificar directamente para controlar detalladamente como se visualiza.
 TK ???? Pendiente definir lo que sucede cuando se actualiza ERPNext. Es probable que sea necesario realizar copia de respaldo?
 	> /home/frappe/frappe-bench/apps/erpnext/erpnext/[nombre_del_modulo]/doctype/[nombre_del_doctype]/templates/
 
 
+
+
+###### 8 Solamente para productos
+No es necesario habilitar developer mode!
+Solamente hay que configurar **Product Settings** desde el awesome bar
+
+1. Vaya al Awesome Bar y escriba esto: **Product Settings**
+2. Haca clic en la caja de selección: **Pagina principal es productos** (Debe estar seleccionada o tener cheque)
+3. Haga clic en la caja de selección **Mostrar Productos como una Lista** (Debe estar seleccionada o tener cheque)
+4. Indique cuantos productos desea mostrar por página.
 
 ###### ----- Pendiente de Limpieza o asignación IGNORE ESTA SECCION ----
 When modifying the top bar in **Website Settings**, be careful about the background definition, it will block it. Instead, modify the CSS file!
@@ -535,7 +545,7 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.1.7 - Impuestos (compras) (Video 054)
 ##### 3.2.1.8 - Factura de venta (Video 055)
 ##### 3.2.1.9 - Factura de compra (Video 056)
-##### 3.2.1.10 -  Conciliando pagos (Video 057)
+##### 3.2.1.10 - Conciliando pagos (Video 057)
 ##### 3.2.1.11 - Subscripciones SIN VIDEO
 El módulo se subscripciones en ERPNext le permite crear automáticamente documentos con
 periodicidad.
@@ -551,7 +561,6 @@ Se puede crear subscripciones para documentos como:
 * Factura de Venta
 * Cotizaciones a Clientes
 * Notas de Entrega
-
 
 Los documentos serán creados automáticamente en el momento indicado, en estado de *Borrador*
 Usted puede indicar si desea que se validen automáticamente al momento de ser creados!
@@ -728,11 +737,58 @@ Que veremos aquí
 ### 4.1 Operación Avanzada
 #### 4.1.3 - Ajustes específicos por Dominio
 ##### 4.1.3.1 - Modulo Agricultura (Video 113)
-##### 4.1.3.2 - Modulo de Hospitalidad (Video 114)
-##### 4.1.3.3 - Modulo de Salud (Video 115)
+##### 4.1.3.2 - Modulo de Hospitalidad (Video 114) pendiente
+
+##### 4.1.3.3 - Modulo de Salud (Video 115) 
+
 ##### 4.1.3.4 - Modulo de Educacion (Video 116)
+###### 4.1.3.4.1 - Introduccion - ERPNext para escuelas - (Video 119)
+https://youtu.be/f6foQOyGzdA
+###### 4.1.3.4.2 - Aplicaciones de estudiantes - (Video 120)
+https://youtu.be/l8PUACusN3E
+###### 4.1.3.4.3 - Administracion de estudiantes - (Video 121)
+https://youtu.be/nIUsbl0rEE0
+###### 4.1.3.4.4 - Programas y Cursos - (Video 122)
+https://youtu.be/1ueE4seFTp8
+###### 4.1.3.4.5 - Inscripcion a Programas - (Video 123)
+https://youtu.be/5nxWYBRHY_o
+###### 4.1.3.4.6 - Instructores - (Video 124)
+https://youtu.be/rVqQYS1_02k
+###### 4.1.3.4.7 - Grupos de Estudiantes (Secciones) - (Video 125)
+Estudiantes que estan inscritos en un curso
+https://youtu.be/5K_smeeE1Q4
+###### 4.1.3.4.8 - Agendar cursos - (Video 126) 
+Se agenda para cada instructor y alumnos
+https://youtu.be/iy-DBV9jI-A
+###### 4.1.3.4.9 - Asistencia - (Video 127)
+https://youtu.be/j9pgkPuyiaI
+###### 4.1.3.4.10 - Solicitud de Ausencia - (Video 128)
+https://youtu.be/NwwH5t-NKBE
+###### 4.1.3.4.11 - Criterios de Evaluación y Calificaciones - (Video 129)
+https://youtu.be/t8ZDDq4qtIk
+###### 4.1.3.4.12 - Grupo de Evaluaciónes - (Video 130)
+Un grupo de evaluacion, una jerarquia de evaluaciones realizadas en un año académico
+https://youtu.be/I1T7Z2JbcP4
+###### 4.1.3.4.13 - Plan de Evaluaciones - (Video 131)
+Agenda una evaluacion para un grupo especifico de alumnos en un curso especifico
+https://youtu.be/Q9CzzoYb_Js
+###### 4.1.3.4.14 - Resultado de Evaluaciones - (Video 132)
+El resultado de evaluaciones registra la calificacion del alumno en una evaluacion especifica. La herramienta de resultado de evaluaciones, le permite crear varios resultados de alumnos al mismo tiempo, basado en un plan de evaluacion.)
+https://youtu.be/U8ZRB8CM-UM
+###### 4.1.3.4.15 - Estructura de Tarifas - (Video 133)
+Categoria de tarifas y cuentas de tarifas (categoria de tarifas que se combina para calcular el total a cobrar por alumno. (Mensualidad, colegiatura, etc.)
+https://youtu.be/_ZkvyVnWgYk
+###### 4.1.3.4.16 - Registro de Tarifas Masivo - (Video 134)
+Registra multiples tarifas para grupos de alumnos al mismo tiempo.
+###### 4.1.3.4.17 - Tarifas y Pagos - (Video 135)
+Como se crea una tarifa por alumno.  Y como registrar el pago recibido.
+https://youtu.be/RfWOyjgxIZM
 ##### 4.1.3.6 - Modulo de Servicios (Video 117)
+Preparar algun video de flujo de trabajo de servicios o mejores practicas.
+
 ##### 4.1.3.7 - Modulo de Manufactura (Video 118)
+Preparar algun video de flujo de trabajo de manufactura o mejores practicas.
+
 ##### 4.1.3.8 - Modulo de Conexión para Shopify NO VIDEO [Seminario Web Shopify/ERPNext](https://youtu.be/sd2p-0jATzc) 
 Con esta integración a ERPNext:
 * Cuando agrega un **Producto** o **Cliente** a una cuenta de Shopify, se sincroniza con ERPNext automaticamente.
@@ -1091,7 +1147,107 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 
 ## Modulo 11: Agricultura
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
+### 11.1 Introducción de ERPNext para Agricultura
+Toda operación agricola requiere registros detallados e intensivos si se desea tener una óptima cosecha.
+Es importante par auna Granja el llevar en orden su contabilidad, planilla, proveedores, clientes y logística.
+ERPNext ya le permite llevar un orden de toda esta data, y el módulo de agricultura le permite administrar sus actividades agrícolas.
 
+### 11.2 Unidades de Producción y Manejo de Cultivos
+No importa cual sea su cultivo o metodología, todas las actividades agricolas se llevan 
+a cabo en **espacios físicos**, los cuales usted subdivide en piezas lógicas (Parcela, Manzana, Lote, Pante, etc.)
+Además estas actividades requieren momentos específicos para realizarse (Plantado, Riego, Fertilización, etc.). Adicionalmente
+esto se hace en conjunto con tomar muestras del medio ambiente y del cultivo para analizarlos. Finalmente,
+se requiere informes que ayuden a interpretar toda esta información y ayuden a tomar decisiones.
+
+### 11.3 Demostración de Agricultura
+El módulo de agricultura en ERPNext le permite centralizar todas las operaciones de su Granja.
+Los registros se detallan para cada campo, como caracteristicas geoespaciales y del suelo o sustrato.
+Le permite:
+
+* Administrar los espacios físicos en dodne planta sus cultivos.
+* Planificar y Administrar sus cultivos
+* Registrar datos de análisis
+* Planificar actividades relacionadas con sus cultivos
+* Registrar la venta del cultivo o transferencia a una bodega para procesamiento post-cosecha
+* Ver informes.
+
+### 11.4 - Uso básico
+La clave para comprender el módulo se encuentra en los tres elementos más importantes del 
+módulo agrícola:
+
+1. Unidad de Cultivo
+2. Cultivo
+3. Ciclo de Cultivo
+
+#### 11.4.1 - Unidad de Cultivo
+Antes de sembrar sus plantas, usted necesita un espacio físico.
+Este es representado aquí por **Unidad de Cultivo**
+A la **Unidad de Cultivo** también se le conoce como:
+
+* Parcela
+* Terreno
+* Pante
+* Lote
+* Cama
+* División
+* Chaco
+* Chacra
+* Fracción
+* Parte
+* Cable
+* Trozo
+* Zona
+* Sector
+* Segmento
+* Solar
+* Regadío
+* Solar
+
+#### 11.4.2 - Cultivo
+Aqui define las caracteristicas del **Cultivo**. 
+1. Se define el nombre del cultivo, especie, y otro datos importantes.
+2. Los insumos necesarios: Por Ejemplo: Semilla, pilón o esqueje
+3. Resultantes del cultivo: 
+	3.1 Cantidad y Unidad de Medida de producto esperados al momento de la cosecha durante la vida útil del cultivo.
+	3.2 Calendario esperado o planificado de actividades, cosecha, etc.
+
+#### 11.4.3 - Ciclo de Cultivo
+El **Ciclo de Cultivo** es una representación de un plantado *específico* de un **Cultivo**
+en una **Unidad de Cultivo** específico.
+
+### 11.5 - Configuración básica del Módulo de Agricultura
+En esta sección usted aprendera como configurar su módulo agrícola con un simple cultivo
+como la *Zanahoria*.
+
+Se asume que usted ya realizó la configuración básica de ERPNext y que tiene una instancia
+de ERPNext abierta en su ventana del navegador.
+
+
+### 11.5.1 - Unidad de Cultivo
+Antes que empecemos, necesitamos definir los detalles respecto a donde plantaremos nuestros
+cultivos. Primero crearemos nuestra *Granja* como una **Unidad de Cultivo** madre, y luego 
+agregaremos una o dos **Parcelas** como hijos o nodos, pertenecientes a la madre.
+
+1. Haga clic en **Agricultura > Unidad de Cultivo**
+2. Se desplegará un listado de las **Unidades de Cultivo** existentes.
+3. Arriba a la derecha haga clic en **Nuevo**, para crear la primera **Unidad de Cultivo**
+	3.1 Una Ventana de *ingreso rápido* se abrirá.
+		3.1.1 Nombre de la **Unidad de Cultivo**: "Granja de Zanahoria"
+		3.1.2 Madre de la **Unidad de Cultivo**: Vacío o "Todas las Unidades de Cultivo"
+		3.1.3 Caja de Selección "Es Grupo": **Cheque** o **SI**
+	3.2 Haga clic en ***Guardar**
+	3.3 Con esto acaba de crear lo más importante: Una representación de su Granja en ERPNext.
+4. Ahora, haga clic en la **Unidad de Cultivo** "Granja de Zanahoria" para poder agregar
+	detalles.
+	4.1 Abrirá el *Documento completo*
+	4.2 Su navegador le solicitará permiso para *Compartir Ubicación* con ERPNext. 
+		4.2.1 Si no esta en la granja al momento de crearla, ignore el permiso y usando el mapa
+			o coordenadas geográficas, ingrese una ubicación.
+		4.2.1 Si usted se ubica en la granja al momento de crearla, se sugiere que le de permiso.
+		Con este permiso el mapa indicado en la **Unidad de Cultivo** estimará su ubicación para mostrarlo
+	4.3 Si su granja requiere mayor detalle, por ejemplo, si usted cultiva en invernadero
+		4.3.1 Haga clic en Caja de Selección "Es Grupo": **Cheque** o **SI**
+		 
 ## Modulo 12: Salud
 ### 2.1 - Configuración
 ### 2.2 - Paciente
