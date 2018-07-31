@@ -433,9 +433,6 @@ Cuando ya estén creadas las plantillas, se pueden modificar directamente para c
 TK ???? Pendiente definir lo que sucede cuando se actualiza ERPNext. Es probable que sea necesario realizar copia de respaldo?
 	> /home/frappe/frappe-bench/apps/erpnext/erpnext/[nombre_del_modulo]/doctype/[nombre_del_doctype]/templates/
 
-
-
-
 ###### 8 Solamente para productos
 No es necesario habilitar developer mode!
 Solamente hay que configurar **Product Settings** desde el awesome bar
@@ -544,6 +541,11 @@ que accesan nuestro sitio desde la web.
 ##### 3.2.1.6 - Impuestos (ventas) (Video 053)
 ##### 3.2.1.7 - Impuestos (compras) (Video 054)
 ##### 3.2.1.8 - Factura de venta (Video 055)
+Descuentos: Si aplica un porcentaje de descuento sobr eel Gran Total, el total será:
+(Suma de producto x cantidad - Impuesto de Ventas(incluido)) - ((Suma de producto x cantidad - Impuesto de Ventas(incluido)) * % Descuento)
+
+Si usted aplica un monto de descuento toal sobre el gran total, el total será:
+(Suma de producto x cantidad - Impuesto de Ventas(incluido) - (Monto de Descuento))
 ##### 3.2.1.9 - Factura de compra (Video 056)
 ##### 3.2.1.10 - Conciliando pagos (Video 057)
 ##### 3.2.1.11 - Subscripciones SIN VIDEO
@@ -680,7 +682,7 @@ al proveedor.
 ##### 3.2.8.1 - Tipos de Proyecto (Video 089)
 ##### 3.2.8.2 - Tipo y Costo de Actividad (Video 090)
 ##### 3.2.8.3 - Tareas de Proyectos (Video 091)
-La tarea es una asignación de trabajo para ser completada en un período de tiempo.
+La tarea es una asignación de trabajo para ser completada antes de un momento específico.
 Una tarea puede existir por sí sola, o puede estar enlazada con un proyecto. 
 Si desea ver como se crea una tarea desde un proyecto, siga las instrucciones desde el proyecto.
 
@@ -743,13 +745,11 @@ Que veremos aquí
 ##### 4.1.3.3 - Modulo de Salud (Video 115)
 Presentacion del modulo de salud, enlace a modulo 12 con detalles
 ##### 4.1.3.4 - Modulo de Educacion (Video 116)
-Presentacion del modulo de educacion, enlace a modulo 10 con detalles
+Presentacion del modulo de educacion, enlace a modulo 10 con detalles.
 ##### 4.1.3.6 - Modulo de Servicios (Video 117) 
 Preparar algun video de flujo de trabajo de servicios o mejores practicas.
-
 ##### 4.1.3.7 - Modulo de Manufactura (Video 118)
 Preparar algun video de flujo de trabajo de manufactura o mejores practicas.
-
 ##### 4.1.3.8 - Modulo de Conexión para Shopify (Video 148) [Seminario Web Shopify/ERPNext](https://youtu.be/sd2p-0jATzc) 
 Con esta integración a ERPNext:
 * Cuando agrega un **Producto** o **Cliente** a una cuenta de Shopify, se sincroniza con ERPNext automaticamente.
@@ -926,6 +926,16 @@ Como se procesa un retorno de un cliente?:
 ##### 4.2.3.1 - Atributos de producto (Video 178)
 ##### 4.2.3.2 - Variantes de producto (Video 179)
 ##### 4.2.3.3 - Conciliacion de inventario (Video 180)
+Una conciliacion de inventario le permite indicar los articulos o productos que han sido fisicamente contados
+u observados en una bodega en una fecha específica, y la cuenta contable para aplicar como gasto aquellos
+articulos que no ha encontrado. Usted puede especificar un centro de costo para esta conciliación.
+
+Cada linea indica el articulo o producto, la bodega en donde se realizó la verificación, y el monto verificado en 
+la bodega.
+ERPNext obtendrá el valor de valuación (o lo puede ingresar usted mismo?)
+Media vez haya validado la Conciliación de Inventario, se crearán las partidas de Inventario y en el libro mayor de Contabilidad.
+
+Puede hacer cuantas conciliaciones de inventario usted desee.
 ##### 4.2.3.4 -  Lista de embalaje (empaque) (Video 181)
 ##### 4.2.3.5 - Numero de serie (Video 182)
 ##### 4.2.3.6 - Numero de lote (Video 183)
@@ -951,9 +961,9 @@ sobre la solicitud.
 #### 4.2.8 - Proyectos
 ##### 4.2.8.1 - Resumen diario de horas (Video 196)
 ##### 4.2.8.2 - Seguimiento preciso del stock (Video 197)
-##### 4.2.8.3 - Informe o Gráfico de Gantt
+##### 4.2.8.3 - Informe o Gráfico de Gantt NO VIDEO
 Este informe muestra las tareas sobrepuestas contra un calendario
-para visualizar el tiempo requerido y para completar la tarea.
+para visualizar el tiempo requerido para completar la tarea.
 
 Se puede actualizar el progreso de la tarea (%) desde el gráfico de Gantt
 
@@ -1105,48 +1115,47 @@ Referir a [documentación original para verificar que nada falte](https://erpnex
 
 ## Modulo 10: Educación
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/education)
-## 10.1 - Introduccion - ERPNext para escuelas - (Video 119)
+### 10.1 - Introduccion - ERPNext para escuelas - (Video 119)
 https://youtu.be/f6foQOyGzdA
-## 10.2 - Aplicaciones de estudiantes - (Video 120)
+###10.2 - Aplicaciones de estudiantes - (Video 120)
 https://youtu.be/l8PUACusN3E
-## 10.3 - Administracion de estudiantes - (Video 121)
+### 10.3 - Administracion de estudiantes - (Video 121)
 https://youtu.be/nIUsbl0rEE0
-## 10.4 - Programas y Cursos - (Video 122)
+### 10.4 - Programas y Cursos - (Video 122)
 https://youtu.be/1ueE4seFTp8
-## 10.5 - Inscripcion a Programas - (Video 123)
+### 10.5 - Inscripcion a Programas - (Video 123)
 https://youtu.be/5nxWYBRHY_o
-## 10.6 - Instructores - (Video 124)
+### 10.6 - Instructores - (Video 124)
 https://youtu.be/rVqQYS1_02k
-## 10.7 - Grupos de Estudiantes (Secciones) - (Video 125)
+### 10.7 - Grupos de Estudiantes (Secciones) - (Video 125)
 Estudiantes que estan inscritos en un curso
 https://youtu.be/5K_smeeE1Q4
-## 10.8 - Agendar cursos - (Video 126) 
+### 10.8 - Agendar cursos - (Video 126) 
 Se agenda para cada instructor y alumnos
 https://youtu.be/iy-DBV9jI-A
-## 10.9 - Asistencia - (Video 127)
+### 10.9 - Asistencia de Alumnos - (Video 127)
 https://youtu.be/j9pgkPuyiaI
-## 10.10 - Solicitud de Ausencia - (Video 128)
+### 10.10 - Solicitud de Ausencia - (Video 128)
 https://youtu.be/NwwH5t-NKBE
-## 10.11 - Criterios de Evaluación y Calificaciones - (Video 129)
+### 10.11 - Criterios de Evaluación y Calificaciones - (Video 129)
 https://youtu.be/t8ZDDq4qtIk
-## 10.12 - Grupo de Evaluaciónes - (Video 130)
+### 10.12 - Grupo de Evaluaciónes - (Video 130)
 Un grupo de evaluacion, una jerarquia de evaluaciones realizadas en un año académico
 https://youtu.be/I1T7Z2JbcP4
-## 10.13 - Plan de Evaluaciones - (Video 131)
+### 10.13 - Plan de Evaluaciones - (Video 131)
 Agenda una evaluacion para un grupo especifico de alumnos en un curso especifico
 https://youtu.be/Q9CzzoYb_Js
-## 10.14 - Resultado de Evaluaciones - (Video 132)
+### 10.14 - Resultado de Evaluaciones - (Video 132)
 El resultado de evaluaciones registra la calificacion del alumno en una evaluacion especifica. La herramienta de resultado de evaluaciones, le permite crear varios resultados de alumnos al mismo tiempo, basado en un plan de evaluacion.)
 https://youtu.be/U8ZRB8CM-UM
-## 10.15 - Estructura de Tarifas - (Video 133)
+### 10.15 - Estructura de Tarifas - (Video 133)
 Categoria de tarifas y cuentas de tarifas (categoria de tarifas que se combina para calcular el total a cobrar por alumno. (Mensualidad, colegiatura, etc.)
 https://youtu.be/_ZkvyVnWgYk
-## 10.16 - Registro de Tarifas Masivo - (Video 134)
+### 10.16 - Registro de Tarifas Masivo - (Video 134)
 Registra multiples tarifas para grupos de alumnos al mismo tiempo.
-## 10.17 - Tarifas y Pagos - (Video 135)
+### 10.17 - Tarifas y Pagos - (Video 135)
 Como se crea una tarifa por alumno.  Y como registrar el pago recibido.
 https://youtu.be/RfWOyjgxIZM
-
 
 ## Modulo 11: Agricultura
 Referir a [documentación original para verificar que nada falte](https://erpnext.org/docs/user/manual/en/agriculture)
@@ -1216,7 +1225,25 @@ Aqui define las caracteristicas del **Cultivo**.
 
 #### 11.4.3 - Ciclo de Cultivo
 El **Ciclo de Cultivo** es una representación de un plantado *específico* de un **Cultivo**
-en una **Unidad de Cultivo** específico.
+en una **Unidad de Cultivo** específico. Indica la fecha de inicio, junto con las labores de distintos tipos programadas
+y las fechas en que esta agendada su ejecución.  Un ciclo de cultivo tiene varios estados, entre ellos:
+
+* Borrador: Un ciclo de cultivo creado pero que no tiene injerencia en las actividades normales de ERPNext.
+* Planificado: Un ciclo de cultivo que ya esta agendado, pero cuya fecha de inicio es en el futuro o posterior a la fecha actual.
+* Activo: Un ciclo de cultivo agendado, cuya fecha de inicio es igual o anterior a la fecha actual.
+* Cerrado: Un ciclo de cultivo, el cual ha sido cerrado. No se puede registrar mas movimientos hacia con un ciclo de cultivo cerrado.
+* Cancelado: Un ciclo de cultivo que se cancelo completamente. No se puede registrar movimientos, y sus movimientos han sido revertidos completamente.
+
+#### 11.4.4 - Labor Agricola
+La labor agricola es un comprobante de ejecución de una labor agendada por el ciclo de cultivo. También puede crearse
+una labor agricola que no este agendada, pero que pertenezca a un ciclo de cultivo especifico.
+
+Hay Varios tipos de labor agricola:
+
+* Plantado / Transplantado (Movimiento de plantas)
+* Irrigación (Agua)
+* Fertilización
+* Aplicación (Fertilización, Herbicida, Fungicida, Nematicida, Insecticida, Molusquicida, Pesticida, etc.)
 
 ### 11.5 - Configuración básica del Módulo de Agricultura
 En esta sección usted aprendera como configurar su módulo agrícola con un simple cultivo
@@ -1250,7 +1277,7 @@ agregaremos una o dos **Parcelas** como hijos o nodos, pertenecientes a la madre
 		Con este permiso el mapa indicado en la **Unidad de Cultivo** estimará su ubicación para mostrarlo
 	4.3 Si su granja requiere mayor detalle, por ejemplo, si usted cultiva en invernadero
 		4.3.1 Haga clic en Caja de Selección "Es Grupo": **Cheque** o **SI**
-		 
+
 ## Modulo 12: Salud
 ### 12.1 - Configuración (Video 136)
 ### 12.2 - Paciente (Video 137)
