@@ -1608,10 +1608,11 @@ Esto permite que su personal no recorra mas de dos veces cada pasillo para ingre
 donde se utiliza la metodología de  *Obtencion Interactiva de Objetos por Fase (OIOF)*, reduce el tiempo necesario
 para obtener todos aquellos objetos que permiten cumplir con los productos requeridos.
 
-La estructura se vería así:S
+La estructura se vería así:
+![Estanteria-FS-Serpentina](/activos/imagenes/Estanteria-FS-serpentina.png)
 
 ##### Estándar
-
-
-
+Un método estándar estructura su almacén similar a la serpentina, solo que todas las estanterías o grupos de estanterías
+inician desde el mismo pasillo cruzado. Con esto, se debe retornar al inicio del pasillo para contar estanterías
+hacia arriba.
 # ESTE DOCUMENTO ES TRABAJO EN PROCESO!
