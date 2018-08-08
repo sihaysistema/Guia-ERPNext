@@ -1556,15 +1556,11 @@ Ambas estructuras mencionadas arriba le permiten reducir el tiempo de obtención
 Previo a sugerirle como nombrar sus bodegas, clarifiquemos la terminología.
 
 **Ubicación**: (En inglés: **Location**) Un area designada y etiquetada en su bodega, en donde una persona va a obtener los objetos
-para un pedido. Tipicamente se identifica con una serie de codigos alfanumericos (que pueden incluir codificacion en barra) que pueden usarse
-para rápidamente registrar la salida o ingreso de un producto en sus sitema de administración de bodega (almacén)
+para un pedido. Típicamente se identifica con una serie de codigos alfanuméricos (que pueden incluir codificacion en barra) que pueden usarse
+para rápidamente registrar la salida o ingreso de un producto en sus sitema de administración de bodega (almacén).
 
-**Contenedor**: (En inglés: **Bin**) Es cualquier tipo de almacenamiento *adentro* de uno o mas espacios o ubicaciones para
-el producto almacenado. (Por ejemploi: Un contenedor de clavos, otro de tornillos, etc.). Esta es la ubicación mas específica
-que se sugiere utilizar en una bodega. Ocasionalmente se puede intercambiar con el término **Ubicación**.
-
-**Entrepaño**: (En inglés: **Shelf**) El siguiente nivel de ubicación a la cual se le coloca nombre es el **Entrepaño** o **Fila**.
-Este es el espacio horizontal que atraviesa la enteridad de la Estantería en donde se ubica.
+**Pasillo**: (En inglés: **Aisle**) La siguiente forma de indicar ubicación es por **Pasillo**, el cual se
+define como el espacio entre sus **Estanterías** por el cual se puede mover usted o su maquinaria de bodega (Montacargas, etc.)
 
 **Estantería**: (En inglés: **Rack**, **Unit**, o **Sección**) Se refiere a la seccion de unidades o modulos
 que contienen Entrepaños para almacenar los productos. Dependiendo de la bodega, las **Estanterías** se pueden identificar
@@ -1572,12 +1568,18 @@ como una unidad entera a lo largo de un **Pasillo**, o como secciones de **Entre
 lo descrito como un montón de libreras alineadas en una fila, con cada librera en su propia **Estantería** dentro de
 la fila de **Estanterías**.
 
-**Pasillo**: (En inglés: **Aisle**) La siguiente forma de indicar ubicación es por **Pasillo**, el cual se
-define como el espacio entre sus **Estanterías** por el cual se puede mover usted o su maquinaria de bodega (Montacargas, etc.)
+**Entrepaño**: (En inglés: **Shelf**) El siguiente nivel de ubicación a la cual se le coloca nombre es el **Entrepaño** o **Fila**.
+Este es el espacio horizontal que atraviesa la enteridad de la Estantería en donde se ubica.
+
+**División**: (En inglés: **Division or Subdivision**) Esto divide su entrepaño en unidades lógicas que permiten separar objetos más pequeños
+Si el objeto ocupa toda la estantería, entonces no es necesario utilizar esta numeración.
+
+**Recipiente**: (En inglés: **Bin**) Es cualquier tipo de almacenamiento *adentro* de uno o mas espacios o divisiones para
+el producto almacenado. (Por ejemplo: Un recipiente de clavos, otro de tornillos, etc.). Esta es la ubicación mas específica
+que se sugiere utilizar en una bodega. Ocasionalmente se puede intercambiar con el término **Ubicación**.
 
 Si deseamos ver una jerarquía de su bodega, lo lógico es entonces definirla de lo general a lo específico como:
-#### Ubicación General > Grupo de Bodegas > Bodega > Pasillo > Estantería > Entrepaño > Contenedor
-
+#### Ubicación General > Grupo de Bodegas > Bodega > Pasillo > Estantería > Entrepaño > División > Recipiente
 
 ### Como Nombrar sus bodegas (Almacenes)
 Para nombrar su bodega, asegúrese de elejir algo que le funcione, y sea consistente en el esquema que elijió.
@@ -1605,7 +1607,7 @@ de vehiculo versus una que almacena componentes para computadoras)
 Los expertos sugieren siempre un almacén estructurado como serpentina, el cual permite a su personal
 recorrer en forma de culebra o "S" hacia adentro y afuera de los pasillos para dejar o recoger los productos necesarios.
 Esto permite que su personal no recorra mas de dos veces cada pasillo para ingresar al otro pasillo. En casos
-donde se utiliza la metodología de  *Obtencion Interactiva de Objetos por Fase (OIOF)*, reduce el tiempo necesario
+donde se utiliza la metodología de *Obtencion Interactiva de Objetos por Fase (OIOF)*, reduce el tiempo necesario
 para obtener todos aquellos objetos que permiten cumplir con los productos requeridos.
 
 La estructura se vería así:
@@ -1615,4 +1617,57 @@ La estructura se vería así:
 Un método estándar estructura su almacén similar a la serpentina, solo que todas las estanterías o grupos de estanterías
 inician desde el mismo pasillo cruzado. Con esto, se debe retornar al inicio del pasillo para contar estanterías
 hacia arriba.
+
+### Como Nombrar los recipientes en sus Entrepaños
+Media vez hemos ubicado adentro de la bodega o almacén, y hemos llegado al entrepaño que contiene
+los objetos deseados, todavía nos queda navegar cualquier potencial división del entrepaño.
+Para este efecto, nos queda solamente etiquetar por sección o división lógica.
+
+La mejor forma de hacer esto es mediante la colocación en cada **Entrepaño** de **Recipientes** enumerados
+horizontalmente (de izquierda a derecha). Cada serie numerada debe de llegar hasta el final del entrepaño.
+Es importante anteponerle una letra **"D"** (**Division**) previo al numero,
+y utilizar el esquema de dos digitos: D01, D02, D03, etc.
+Esto logra diferenciar claramente el numero de **Division** de la numeración que identifica al **Pasillo** y **Estantería**.
+
+Si los objetos que deseo buscar se encuentran en la ubicacion **02-BE-04** y a ese entrepaño lo subdividimos en 4
+ubicaciones adicionales, cada una de esas cuatro ubicaciones serán:
+**02-BE-04-D01**
+**02-BE-04-D02**
+**02-BE-04-D03**
+**02-BE-04-D04**
+
+La estructura se vería así:
+
+### Más específico: Organizadores adentro de los recipientes
+Supongamos que usted desea ubicar objetos más pequeños, los cuales únicamente los coloca
+en **Gavetas** pequeñas. Ejemplos de estos pueden ser distintos tamaños y tipos tornillos, tuercas, roldanas, clavos, etc.
+Usted puede colocar **Organizadores** de tipo cubeta cuadrados apilables, o **Cajas organizadoras con gavetas pequeñas** para continuar
+subdividiendo el espacio del entrepaño en espacios lógicos. Cada uno de estos es un **Recipiente**.
+
+Supongamos que a la ubicación del ejemplo anterior:  **02-BE-04-D01**
+Le colocamos 5 **Recipientes** (Conocidos como: Cajas organizadoras o "Bins" en inglés) verticalmente, podemos enumerar de abajo para arriba como:
+**R01**, R02, R03, R04, R05.  Si deseamos ubicar algo que está en el primer **Recipiente**, la ubicación es entonces:
+
+**02-BE-04-D01-R01**
+
+En el caso de las **Cajas organizadoras con gavetas pequeñas**, no se sugiere subdividir por columna y fila, sino 
+simplemente enumerar. Si una **Caja organizadora con gavetas pequeñas** posee 5 niveles y 10 columnas para
+un total de 50 gavetas, cada gaveta se considera un recipiente y se sigue contando hasta 50. 
+Por ejemplo, si deseamos ubicar algo en la gaveta 49, el código es:
+
+**02-BE-04-D01-R49**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ESTE DOCUMENTO ES TRABAJO EN PROCESO!
