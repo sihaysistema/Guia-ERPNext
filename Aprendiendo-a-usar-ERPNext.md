@@ -241,6 +241,7 @@ de apoyo es un Atributo de Articulo o un Articulo de Factura de Venta.
 ##### 2.2.1.5 - Partida de Apertura (Video 013)
 #### 2.2.2 - Recursos Humanos
 ##### 2.2.2.1 - Empleados (Video 014)
+
 ##### 2.2.2.2 - Sucursal (Video 015)
 ##### 2.2.2.3 - Departamento (Video 016)
 ##### 2.2.2.4 - Puesto (Video 017)
@@ -1479,10 +1480,44 @@ Para cualquier empuje en el futuro, solamente utilice:
 ##### 15.5.2.8 - Modificando Archivos (Video 254)
 ##### 15.5.2.9  - Modificando Informes - Query report (ej. Agregar columnas) (Video 255)
 ##### 15.5.2.10 - Creando informes - Pages  (Ej. Sales Analytics, vs. Sales Analytics 2.0) (Video 258)
-##### 15.5.2.11 - Haciendo pruebas
-##### 15.5.2.12 - Creando Documentacion
-##### 15.5.2.13 - Publicando su aplicación
-##### 15.5.2.14 - Mantenimiento de su aplicación
+##### 15.5.2.11 - Creando Registros para que se incluyan en su aplicación
+Muchas veces, la aplicación per se no necesita solamente de funcionalidad sofisticada sino que requiere de proporcionarle registros de utilidad para el usuario.  En ese caso podemos rescindir la utilidad de importar datos y simplemente incluirlos como por defecto al instalar la aplicación.
+
+Mientras vaya desarrollando la aplicación, agregue los registros que necesite de la forma que desee.
+
+Modifique su archivo `hooks.py` para que la variable `fixtures = []` contenga los DocTypes que usted desea.  Por ejemplo, aparte de los campos personalizados y scripts personalizados que existen en el ERPNext de desarrollo, deseo que como parte de la aplicación se incluyan los cuentas contables, los centros de costo y los grupos de artículos, entonces la linea debe de leer así:
+
+Antes:
+`fixtures = ["Custom Field", "Custom Script"]`
+
+Después:
+`fixtures = ["Custom Field", "Custom Script", "Account", "Cost Center", "Item Group"]`
+
+Guarde el archivo.
+
+Luego, ya con los registros como los desea, (y previo a hacer su commit y push al servidor git), ejecute el siguiente comando en su servidor de desarrollo:
+
+cd /home/frappe/frappe-bench/ && bench export-fixtures
+
+Este comando creará 5 archivos .json, uno para cada DocType, en el directorio `/home/frappe/frappe-bench/apps/[app-name]/[app-name]/fixtures/` de su aplicación, así:
+
+custom_field.json
+custom_script.json
+account.json
+cost_center.json
+item_group.json
+
+Estos archivos tendrán los registros que usted almacenó previamente, y al momento de instalar la aplicación en cualquier servidor, se cargarán automáticamente. El usuario no tendrá que cargarlos.
+##### 15.5.2.12 - Haciendo pruebas
+Ademas del ciclo usual de escribir codigo fuente > probar funcionalidad > fallar > probar funcionalidad de neuvo > triunfar, es necesario realizar pruebas de los scripts de python para asegurarse que el codigo fuente esta haciendo lo que supuestamente debe de hacer. Adentro del folder del DocType que esta creando, es imperativo crear por lo menos tres archivos
+test_[nombre-del-doctype].py
+test_[nombre-del-doctype].js
+test_records.json
+
+Los archivos Python y JavaScript contienen aseveraciones (assertions) que utilizan las funciones que usted programó, así como funciones locales y variables para confirmar explicitamente que la funcion del software hace exactamente lo que usted desea. Este proceso dramaticamente incrementa la integridad del software, y clarifica su funcionamiento para aquellos que lo estan evaluando o auditando el codigo fuente.
+##### 15.5.2.13 - Creando Documentacion
+##### 15.5.2.14 - Publicando su aplicación
+##### 15.5.2.15 - Mantenimiento de su aplicación
 #### 15.5.3 - Desarrollando sobre ERPNext
 ##### 15.5.3.1 - Como trabajar con GitHub sobre el repositorio principal
 ##### 15.5.3.2  - Solicitando un Pull Request
