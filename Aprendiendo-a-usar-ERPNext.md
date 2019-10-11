@@ -6,7 +6,7 @@
 Este documento asume que usted tiene curiosidad de saber de qué se trata ERPNext y que está interesado en aprender como usarlo.
 
 ### 1.1 Resumen
-ERPnext es un software que corre en una máquina con sistema operativo linux (en Virtualbox
+ERPNext es un software que corre en una máquina con sistema operativo linux (en Virtualbox
  se puede correr en cualquier sistema oeprativo) o en un servidor. Lo puedes acceder con un navegador
  web. En este software ingresas registros sobre muchas cosas relacionadas a tu empresa u organización.
 
